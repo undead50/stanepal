@@ -1,0 +1,5196 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
+    <title>
+      STA Community Nursing &amp; NDIS Services - Support at Home &amp;
+      Registered Provider
+    </title>
+    <meta
+      name="description"
+      content="STA Community Nursing &amp; NDIS Services: Approved Support at Home and Registered NDIS Provider in Australia. Clinical nursing, disability support, dementia care, and supported living."
+    />
+    <meta
+      property="og:title"
+      content="STA Community Nursing &amp; NDIS Services - Support at Home &amp; Registered Provider"
+    />
+    <meta
+      property="og:description"
+      content="STA Community Nursing &amp; NDIS Services: Approved Support at Home and Registered NDIS Provider in Australia. Clinical nursing, disability support, dementia care, and supported living."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Typography: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <style>
+      :root {
+        /* Primary Healthcare Brand Color: #5F1DBD */
+        --hc-primary: #5f1dbd;
+        --hc-primary-hover: #4c1499;
+        --hc-primary-deep: #1a0538;
+        --hc-primary-light: #f5edfd;
+        --hc-primary-subtle: #faf5ff;
+        --hc-primary-border: #e9d5ff;
+        --hc-primary-accent: #d8b4fe;
+
+        /* Secondary Color Palette: #5CB8D4 */
+        --hc-secondary: #5cb8d4;
+        --hc-secondary-hover: #45a3be;
+        --hc-secondary-deep: #1a5a6d;
+        --hc-secondary-light: #edf8fa;
+        --hc-secondary-subtle: #f4fbfc;
+        --hc-secondary-border: #b9e2ed;
+        --hc-secondary-accent: #369ebd;
+        --hc-secondary-glow: rgba(92, 184, 212, 0.35);
+
+        /* NDIS Specific Brand Color: #DE75CB */
+        --hc-ndis: #de75cb;
+        --hc-ndis-hover: #c85bb4;
+        --hc-ndis-deep: #531346;
+        --hc-ndis-light: #fdf1fa;
+        --hc-ndis-subtle: #fef7fc;
+        --hc-ndis-border: #f6c6ee;
+        --hc-ndis-accent: #e895d9;
+        --hc-ndis-glow: rgba(222, 117, 203, 0.35);
+
+        /* Complementary Purples & Accents */
+        --hc-purple-hover: #4c1499;
+        --hc-purple-deep: #1a0538;
+        --hc-purple-dark: #120324;
+        --hc-purple-mid: #2e0b5f;
+        --hc-purple-light: #f5edfd;
+        --hc-purple-subtle: #faf5ff;
+        --hc-purple-border: #e9d5ff;
+        --hc-purple-accent: #d8b4fe;
+
+        /* Neutrals */
+        --hc-white: #ffffff;
+        --hc-gray-50: #f8fafc;
+        --hc-gray-100: #f1f5f9;
+        --hc-gray-200: #e2e8f0;
+        --hc-gray-300: #cbd5e1;
+        --hc-gray-500: #64748b;
+        --hc-gray-700: #334155;
+        --hc-gray-900: #0f172a;
+
+        /* System & Typography */
+        --hc-font:
+          'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, sans-serif;
+        --hc-radius-sm: 8px;
+        --hc-radius-md: 14px;
+        --hc-radius-lg: 20px;
+        --hc-radius-xl: 26px;
+        --hc-shadow-sm: 0 2px 6px rgba(95, 29, 189, 0.06);
+        --hc-shadow-md: 0 10px 25px -5px rgba(95, 29, 189, 0.12);
+        --hc-shadow-lg: 0 20px 40px -10px rgba(95, 29, 189, 0.2);
+        --hc-transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      /* Reset & Base Setup */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+        font-size: 18px;
+        overflow-x: hidden;
+      }
+      body {
+        font-family: var(--hc-font);
+        color: var(--hc-gray-900);
+        background-color: var(--hc-white);
+        line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+        width: 100%;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      ul,
+      ol {
+        list-style: none;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      button,
+      input,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 1rem;
+      }
+
+      /* Offset anchor-scroll targets so content clears the sticky header */
+      section[id] {
+        scroll-margin-top: 100px;
+      }
+
+      /* Respect reduced-motion preference for all animations added below */
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        .brand-logo-svg,
+        .btn-pulse {
+          animation: none !important;
+        }
+        .section-center-head,
+        .nav-link::after {
+          transition: none !important;
+        }
+      }
+
+      .container {
+        width: 100%;
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 0 clamp(16px, 3vw, 24px);
+      }
+
+      /* Top Utility Announcement Bar */
+      .top-bar {
+        background-color: var(--hc-purple-dark);
+        color: #e2e8f0;
+        font-size: clamp(0.72rem, 1.2vw, 0.78rem);
+        padding: 8px 0;
+        border-bottom: 1px solid rgba(95, 29, 189, 0.4);
+      }
+      .top-bar-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px 16px;
+      }
+      .top-badges {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .badge-approved {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-weight: 600;
+        color: #faf5ff;
+      }
+      .badge-approved i {
+        color: var(--hc-secondary);
+      }
+      .badge-ndis {
+        background-color: var(--hc-ndis);
+        color: #ffffff;
+        padding: 3px 10px;
+        border-radius: 6px;
+        font-weight: 700;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        box-shadow: 0 2px 8px var(--hc-ndis-glow);
+      }
+      .top-links {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .top-phone {
+        color: var(--hc-secondary);
+        font-weight: 700;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: var(--hc-transition);
+      }
+      .top-phone:hover {
+        color: var(--hc-white);
+      }
+      .btn-download-html {
+        background-color: rgba(95, 29, 189, 0.25);
+        border: 1px solid var(--hc-purple-border);
+        color: #ffffff;
+        padding: 3px 10px;
+        border-radius: 6px;
+        font-size: 0.72rem;
+        font-weight: 700;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: var(--hc-transition);
+      }
+      .btn-download-html:hover {
+        background-color: var(--hc-primary);
+        border-color: var(--hc-primary);
+      }
+
+      /* Header & Navigation */
+      .site-header {
+        background-color: var(--hc-white);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid var(--hc-gray-200);
+        box-shadow: var(--hc-shadow-sm);
+      }
+      .header-inner {
+        height: clamp(74px, 9.5vw, 96px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .brand-logo {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        transition: var(--hc-transition);
+        line-height: 1;
+      }
+      .brand-logo:hover {
+        opacity: 0.95;
+        transform: translateY(-1px);
+      }
+      @keyframes logoIntro {
+        from {
+          opacity: 0;
+          transform: scale(0.82);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      .brand-logo-svg {
+        height: clamp(66px, 8vw, 88px);
+        width: auto;
+        display: block;
+        border-radius: 12px;
+        box-shadow: 0 4px 14px rgba(95, 29, 189, 0.26);
+        transition: var(--hc-transition);
+        animation: logoIntro 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+      }
+      .brand-logo:hover .brand-logo-svg {
+        box-shadow: 0 6px 20px rgba(95, 29, 189, 0.38);
+      }
+      .brand-logo-svg.in-drawer {
+        height: 46px;
+      }
+      .brand-logo-svg.in-footer {
+        height: clamp(52px, 6.5vw, 64px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+      }
+
+      /* Desktop Navigation */
+      .main-nav {
+        display: flex;
+        align-items: center;
+        gap: clamp(16px, 2vw, 26px);
+        font-size: 0.88rem;
+        font-weight: 600;
+        color: var(--hc-gray-700);
+      }
+      .nav-item {
+        position: relative;
+        padding: 28px 0;
+      }
+      .nav-link {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        transition: var(--hc-transition);
+      }
+      .nav-link:hover,
+      .nav-item:hover > .nav-link {
+        color: var(--hc-primary);
+      }
+      .nav-link::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+        height: 2px;
+        background-color: var(--hc-primary);
+        border-radius: 2px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .nav-link:hover::after,
+      .nav-item:hover > .nav-link::after {
+        transform: scaleX(1);
+      }
+      .nav-link i.fa-chevron-down {
+        font-size: 0.65rem;
+        color: var(--hc-gray-500);
+        transition: transform 0.2s ease;
+      }
+      .nav-item:hover i.fa-chevron-down {
+        transform: rotate(180deg);
+      }
+
+      /* Mega Dropdowns */
+      .dropdown-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 320px;
+        background-color: var(--hc-white);
+        border-radius: var(--hc-radius-md);
+        box-shadow: var(--hc-shadow-lg);
+        border: 1px solid var(--hc-purple-border);
+        padding: 12px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        transition: var(--hc-transition);
+        z-index: 1100;
+      }
+      .nav-item:hover .dropdown-panel {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+      .dropdown-item {
+        display: block;
+        padding: 10px 12px;
+        border-radius: 10px;
+        transition: var(--hc-transition);
+      }
+      .dropdown-item:hover {
+        background-color: var(--hc-purple-subtle);
+      }
+      .dropdown-item-title {
+        font-size: 0.84rem;
+        font-weight: 700;
+        color: var(--hc-purple-deep);
+        display: block;
+      }
+      .dropdown-item-desc {
+        font-size: 0.72rem;
+        color: var(--hc-gray-500);
+        margin-top: 2px;
+      }
+
+      /* Buttons */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        font-weight: 700;
+        font-size: clamp(0.82rem, 1.5vw, 0.88rem);
+        padding: 12px 22px;
+        min-height: 44px;
+        border-radius: var(--hc-radius-sm);
+        border: none;
+        cursor: pointer;
+        transition: var(--hc-transition);
+        white-space: nowrap;
+      }
+      .btn-primary {
+        background-color: var(--hc-primary);
+        color: var(--hc-white);
+        box-shadow: 0 4px 14px rgba(95, 29, 189, 0.35);
+      }
+      .btn-primary:hover {
+        background-color: var(--hc-purple-hover);
+        box-shadow: 0 6px 20px rgba(95, 29, 189, 0.45);
+        transform: translateY(-1px);
+      }
+      @keyframes btnGentlePulse {
+        0%,
+        100% {
+          box-shadow: 0 4px 14px rgba(95, 29, 189, 0.35);
+        }
+        50% {
+          box-shadow: 0 4px 22px rgba(95, 29, 189, 0.65);
+          transform: scale(1.035);
+        }
+      }
+      .btn-pulse {
+        animation: btnGentlePulse 2.6s ease-in-out infinite;
+      }
+      .btn-pulse:hover {
+        animation-play-state: paused;
+      }
+      .btn-secondary {
+        background-color: var(--hc-secondary);
+        color: #0f172a;
+        box-shadow: 0 4px 14px var(--hc-secondary-glow);
+      }
+      .btn-secondary:hover {
+        background-color: var(--hc-secondary-hover);
+        box-shadow: 0 6px 20px rgba(92, 184, 212, 0.45);
+        transform: translateY(-1px);
+      }
+      .btn-ndis {
+        background-color: var(--hc-ndis);
+        color: var(--hc-white);
+        box-shadow: 0 4px 14px var(--hc-ndis-glow);
+      }
+      .btn-ndis:hover {
+        background-color: var(--hc-ndis-hover);
+        box-shadow: 0 6px 20px rgba(222, 117, 203, 0.45);
+        transform: translateY(-1px);
+      }
+      .btn-outline-secondary {
+        border: 2px solid var(--hc-secondary);
+        color: var(--hc-secondary-deep);
+        background: transparent;
+      }
+      .btn-outline-secondary:hover {
+        background-color: var(--hc-secondary);
+        color: #0f172a;
+      }
+      .btn-outline-purple {
+        border: 2px solid var(--hc-primary);
+        color: var(--hc-primary);
+        background: transparent;
+      }
+      .btn-outline-purple:hover {
+        background-color: var(--hc-primary);
+        color: var(--hc-white);
+      }
+      .btn-outline-primary {
+        border: 2px solid var(--hc-primary);
+        color: var(--hc-primary);
+        background: transparent;
+      }
+      .btn-outline-primary:hover {
+        background-color: var(--hc-primary);
+        color: var(--hc-white);
+      }
+      .btn-ghost-light {
+        background: rgba(255, 255, 255, 0.15);
+        color: var(--hc-white);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      .btn-ghost-light:hover {
+        background: rgba(255, 255, 255, 0.25);
+      }
+
+      /* Mobile Hamburger */
+      .mobile-menu-btn {
+        display: none;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        color: var(--hc-purple-deep);
+        cursor: pointer;
+        padding: 8px;
+        min-width: 44px;
+        min-height: 44px;
+      }
+
+      /* Mobile Drawer */
+      .drawer-overlay {
+        position: fixed;
+        inset: 0;
+        background-color: rgba(18, 3, 36, 0.75);
+        backdrop-filter: blur(4px);
+        z-index: 1200;
+        opacity: 0;
+        visibility: hidden;
+        transition:
+          opacity 0.3s ease,
+          visibility 0.3s ease;
+      }
+      .drawer-overlay.is-active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .mobile-drawer {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: min(85vw, 360px);
+        height: 100vh;
+        background-color: var(--hc-white);
+        z-index: 1300;
+        box-shadow: -5px 0 25px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-y: auto;
+        padding: 24px 20px;
+        transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .mobile-drawer.is-active {
+        right: 0;
+      }
+      .drawer-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--hc-gray-200);
+      }
+      .drawer-close-btn {
+        background: none;
+        border: none;
+        font-size: 1.4rem;
+        color: var(--hc-purple-deep);
+        cursor: pointer;
+        padding: 8px;
+      }
+      .mobile-nav-links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 14px;
+      }
+      .mobile-nav-link {
+        display: block;
+        padding: 14px 0;
+        font-weight: 700;
+        font-size: 0.95rem;
+        color: var(--hc-purple-deep);
+        border-bottom: 1px solid var(--hc-gray-100);
+        transition: color 0.2s;
+      }
+      .mobile-nav-link:hover {
+        color: var(--hc-primary);
+      }
+
+      /* Hero Section */
+      .hero-section {
+        position: relative;
+        background-color: var(--hc-purple-dark);
+        color: var(--hc-white);
+        padding: clamp(50px, 8vw, 90px) 0;
+        overflow: hidden;
+      }
+      .hero-bg-media {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        z-index: 1;
+        opacity: 0.75;
+      }
+      .hero-gradient {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          100deg,
+          rgba(26, 5, 56, 0.92) 0%,
+          rgba(26, 5, 56, 0.72) 32%,
+          rgba(95, 29, 189, 0.4) 58%,
+          rgba(18, 3, 36, 0.45) 100%
+        );
+        z-index: 2;
+      }
+      .hero-grid {
+        position: relative;
+        z-index: 3;
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: clamp(32px, 4.5vw, 48px);
+        align-items: center;
+      }
+      .hero-eyebrow-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 14px;
+        border-radius: 9999px;
+        background-color: rgba(92, 184, 212, 0.16);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(92, 184, 212, 0.4);
+        color: #faf5ff;
+        font-size: clamp(0.72rem, 1.2vw, 0.78rem);
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+      .hero-eyebrow-pill i {
+        color: var(--hc-secondary);
+      }
+      .hero-title {
+        font-size: clamp(1.9rem, 4.2vw, 2.9rem);
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: -0.8px;
+        color: var(--hc-white);
+        margin-bottom: 18px;
+      }
+      .hero-title span {
+        color: var(--hc-secondary);
+      }
+      .hero-lead {
+        font-size: clamp(0.92rem, 1.8vw, 1.05rem);
+        line-height: 1.6;
+        color: #f3e8ff;
+        margin-bottom: 24px;
+      }
+      .hero-bullets {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 20px;
+        margin-bottom: 28px;
+        font-size: clamp(0.76rem, 1.3vw, 0.82rem);
+        font-weight: 600;
+      }
+      .hero-bullets span {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .hero-bullets i {
+        color: var(--hc-secondary);
+      }
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      /* Pathway Cards (Hero Right Column) */
+      .pathways-column {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .pathway-box {
+        background-color: var(--hc-white);
+        color: var(--hc-gray-900);
+        padding: clamp(14px, 2.5vw, 18px) clamp(16px, 3vw, 22px);
+        border-radius: var(--hc-radius-md);
+        box-shadow: var(--hc-shadow-md);
+        border: 2px solid transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: var(--hc-transition);
+      }
+      .pathway-box:hover {
+        border-color: var(--hc-primary);
+        transform: translateY(-2px);
+        box-shadow: var(--hc-shadow-lg);
+      }
+      .pathway-box.is-ndis {
+        border: 2px solid var(--hc-ndis-border);
+        background-color: var(--hc-ndis-subtle);
+      }
+      .pathway-box.is-ndis:hover {
+        border-color: var(--hc-ndis);
+        box-shadow: 0 10px 25px var(--hc-ndis-glow);
+      }
+      .pathway-box.is-ndis .pathway-icon-square {
+        background-color: var(--hc-ndis);
+        color: #ffffff;
+        box-shadow: 0 4px 10px var(--hc-ndis-glow);
+      }
+      .pathway-box.is-ndis .pathway-action-tag {
+        color: var(--hc-ndis);
+        font-weight: 800;
+      }
+      .pathway-box.is-ndis h4 {
+        color: var(--hc-ndis-deep);
+      }
+      .pathway-box-content {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .pathway-icon-square {
+        width: clamp(38px, 5vw, 44px);
+        height: clamp(38px, 5vw, 44px);
+        border-radius: 12px;
+        background-color: var(--hc-purple-light);
+        color: var(--hc-primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: clamp(1.1rem, 2vw, 1.25rem);
+        flex-shrink: 0;
+      }
+      .pathway-box h4 {
+        font-size: clamp(0.88rem, 1.8vw, 0.95rem);
+        font-weight: 800;
+        color: var(--hc-purple-deep);
+      }
+      .pathway-box p {
+        font-size: clamp(0.72rem, 1.4vw, 0.78rem);
+        color: var(--hc-gray-500);
+        margin-top: 2px;
+      }
+      .pathway-action-tag {
+        color: var(--hc-primary);
+        font-weight: 700;
+        font-size: 0.78rem;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        white-space: nowrap;
+        margin-left: 8px;
+      }
+
+      /* The STA Care Difference */
+      .diff-section {
+        background-color: var(--hc-purple-subtle);
+        padding: clamp(55px, 7vw, 75px) 0;
+        border-bottom: 1px solid var(--hc-purple-light);
+      }
+      .section-center-head {
+        text-align: center;
+        max-width: 680px;
+        margin: 0 auto clamp(30px, 5vw, 45px);
+        opacity: 0;
+        transform: translateY(26px);
+        transition:
+          opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+          transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .section-center-head.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .section-kicker {
+        color: var(--hc-primary);
+        font-size: clamp(0.72rem, 1.2vw, 0.78rem);
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        display: block;
+      }
+      .section-main-title {
+        font-size: clamp(1.65rem, 3.5vw, 2.25rem);
+        font-weight: 800;
+        color: var(--hc-purple-deep);
+        letter-spacing: -0.5px;
+        margin-top: 6px;
+        line-height: 1.2;
+      }
+      .section-description {
+        font-size: clamp(0.85rem, 1.6vw, 0.92rem);
+        color: var(--hc-gray-500);
+        margin-top: 10px;
+        line-height: 1.6;
+      }
+      .diff-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: clamp(14px, 2.5vw, 20px);
+      }
+      .diff-card {
+        background-color: var(--hc-white);
+        padding: clamp(20px, 3vw, 26px) clamp(16px, 2.5vw, 20px);
+        border-radius: var(--hc-radius-md);
+        border: 1px solid var(--hc-gray-200);
+        text-align: center;
+        box-shadow: var(--hc-shadow-sm);
+      }
+      .diff-card-icon {
+        width: clamp(44px, 6vw, 50px);
+        height: clamp(44px, 6vw, 50px);
+        border-radius: 14px;
+        background-color: var(--hc-purple-light);
+        color: var(--hc-primary);
+        margin: 0 auto 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: clamp(1.2rem, 2.5vw, 1.35rem);
+      }
+      .diff-card h3 {
+        font-size: clamp(0.88rem, 1.8vw, 0.95rem);
+        font-weight: 800;
+        color: var(--hc-purple-deep);
+        margin-bottom: 8px;
+      }
+      .diff-card p {
+        font-size: clamp(0.76rem, 1.4vw, 0.8rem);
+        color: var(--hc-gray-500);
+        line-height: 1.5;
+      }
+
+      /* 4-Step Intake Wizard */
+      .wizard-wrap-section {
+        padding: clamp(55px, 8vw, 85px) 0;
+        background-color: var(--hc-white);
+      }
+      .wizard-card {
+        max-width: 820px;
+        margin: 0 auto;
+        background-color: var(--hc-white);
+        border-radius: var(--hc-radius-xl);
+        border: 1px solid var(--hc-purple-border);
+        box-shadow: var(--hc-shadow-lg);
+        padding: clamp(24px, 5vw, 44px);
+      }
+      .wizard-progress {
+        position: relative;
+        max-width: 440px;
+        margin: 0 auto clamp(24px, 4vw, 34px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .wizard-progress-track {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        height: 4px;
+        background-color: var(--hc-gray-200);
+        z-index: 1;
+      }
+      .wizard-progress-bar {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 4px;
+        background-color: var(--hc-primary);
+        transition: width 0.3s ease;
+        z-index: 2;
+      }
+      .step-circle {
+        position: relative;
+        z-index: 3;
+        width: clamp(32px, 5vw, 36px);
+        height: clamp(32px, 5vw, 36px);
+        border-radius: 50%;
+        background-color: var(--hc-gray-200);
+        color: var(--hc-gray-500);
+        font-weight: 800;
+        font-size: 0.82rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: var(--hc-transition);
+      }
+      .step-circle.active {
+        background-color: var(--hc-primary);
+        color: var(--hc-white);
+        box-shadow: 0 0 0 4px var(--hc-purple-light);
+      }
+
+      /* Wizard Content Panes */
+      .wizard-pane {
+        display: none;
+      }
+      .wizard-pane.active {
+        display: block;
+      }
+      .pane-title {
+        font-size: clamp(1rem, 2.5vw, 1.15rem);
+        font-weight: 800;
+        color: var(--hc-purple-deep);
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .choice-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+      .choice-label {
+        border: 1px solid var(--hc-gray-200);
+        border-radius: var(--hc-radius-md);
+        padding: clamp(12px, 2vw, 16px);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: clamp(0.8rem, 1.6vw, 0.86rem);
+        font-weight: 600;
+        min-height: 48px;
+        transition: var(--hc-transition);
+      }
+      .choice-label:hover,
+      .choice-label.selected {
+        border-color: var(--hc-primary);
+        background-color: var(--hc-purple-subtle);
+      }
+      .choice-label input[type='radio'] {
+        accent-color: var(--hc-primary);
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+      }
+      .input-field-group {
+        margin-bottom: 18px;
+      }
+      .field-caption {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: var(--hc-gray-700);
+        margin-bottom: 6px;
+      }
+      .form-input {
+        width: 100%;
+        padding: 12px 14px;
+        min-height: 44px;
+        border-radius: 10px;
+        border: 1px solid var(--hc-gray-200);
+        color: var(--hc-gray-900);
+        background-color: var(--hc-white);
+        transition:
+          border-color 0.2s,
+          box-shadow 0.2s;
+      }
+      .form-input:focus {
+        outline: none;
+        border-color: var(--hc-primary);
+        box-shadow: 0 0 0 3px rgba(95, 29, 189, 0.18);
+      }
+      .two-col-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+      .pane-nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24px;
+        padding-top: 18px;
+        border-top: 1px solid var(--hc-gray-200);
+        gap: 12px;
+      }
+
+      /* Confirmation Box */
+      .confirmation-view {
+        display: none;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .confirmation-view.active {
+        display: block;
+      }
+      .success-icon-badge {
+        width: 68px;
+        height: 68px;
+        border-radius: 50%;
+        background: linear-gradient(
+          135deg,
+          var(--hc-primary),
+          var(--hc-purple-deep)
+        );
+        color: var(--hc-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        margin: 0 auto 16px;
+        box-shadow: 0 10px 25px rgba(95, 29, 189, 0.35);
+      }
+      .ref-badge {
+        display: inline-block;
+        background-color: var(--hc-purple-light);
+        color: var(--hc-primary);
+        font-weight: 800;
+        font-size: 0.85rem;
+        padding: 6px 14px;
+        border-radius: 8px;
+        margin: 12px 0 20px;
+        border: 1px dashed var(--hc-primary);
+      }
+      .summary-card {
+        background-color: var(--hc-purple-subtle);
+        border: 1px solid var(--hc-purple-border);
+        border-radius: var(--hc-radius-md);
+        padding: 16px;
+        text-align: left;
+        font-size: 0.82rem;
+        margin-bottom: 24px;
+        color: var(--hc-gray-700);
+      }
+      .summary-card ul {
+        margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .summary-card li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .summary-card i {
+        color: var(--hc-primary);
+      }
+
+      /* Services Catalog */
+      .services-wrapper {
+        padding: clamp(55px, 8vw, 85px) 0;
+        background-color: var(--hc-gray-50);
+        border-top: 1px solid var(--hc-gray-200);
+      }
+      .filter-pills-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: clamp(24px, 4vw, 36px);
+      }
+      .filter-pill {
+        background-color: var(--hc-white);
+        border: 1px solid var(--hc-gray-200);
+        color: var(--hc-gray-700);
+        font-weight: 700;
+        font-size: clamp(0.78rem, 1.4vw, 0.84rem);
+        padding: 8px 18px;
+        border-radius: 9999px;
+        cursor: pointer;
+        transition: var(--hc-transition);
+      }
+      .filter-pill:hover,
+      .filter-pill.active {
+        background-color: var(--hc-primary);
+        color: var(--hc-white);
+        border-color: var(--hc-primary);
+        box-shadow: 0 4px 12px rgba(95, 29, 189, 0.25);
+      }
+      .filter-pill.ndis-pill:hover,
+      .filter-pill.ndis-pill.active {
+        background-color: var(--hc-ndis);
+        color: var(--hc-white);
+        border-color: var(--hc-ndis);
+        box-shadow: 0 4px 14px var(--hc-ndis-glow);
+      }
+      .services-catalog-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: clamp(16px, 2.5vw, 24px);
+      }
+      .service-box-item {
+        position: relative;
+        height: 27rem;
+        perspective: 1400px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+      .service-box-item:hover {
+        transform: translateY(-4px);
+      }
+      /* Flip mechanics: front (photo) <-> back (service details) */
+      .service-card-inner {
+        position: absolute;
+        inset: 0;
+        transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+        transform-style: preserve-3d;
+      }
+      .service-box-item:hover .service-card-inner {
+        transform: rotateY(180deg);
+      }
+      .service-card-front,
+      .service-card-back {
+        position: absolute;
+        inset: 0;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        border-radius: var(--hc-radius-lg);
+        overflow: hidden;
+        box-shadow: var(--hc-shadow-sm);
+        transition: box-shadow 0.3s ease;
+      }
+      .service-box-item:hover .service-card-front,
+      .service-box-item:hover .service-card-back {
+        box-shadow: var(--hc-shadow-lg);
+      }
+      .service-card-photo {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .service-card-photo-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          185deg,
+          rgba(26, 5, 56, 0) 32%,
+          rgba(26, 5, 56, 0.88) 100%
+        );
+      }
+      .service-card-front-content {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: clamp(18px, 3vw, 24px);
+        color: var(--hc-white);
+      }
+      .service-icon-wrap-photo {
+        width: clamp(42px, 5.5vw, 48px);
+        height: clamp(42px, 5.5vw, 48px);
+        border-radius: 14px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(6px);
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        color: var(--hc-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: clamp(1.2rem, 2vw, 1.35rem);
+        margin-bottom: 14px;
+      }
+      .service-heading-photo {
+        font-size: clamp(1rem, 2vw, 1.1rem);
+        font-weight: 800;
+        color: var(--hc-white);
+        margin-bottom: 8px;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+      }
+      .flip-hint {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.74rem;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.9);
+      }
+      .flip-hint i {
+        transition: transform 0.5s ease;
+      }
+      .service-box-item:hover .flip-hint i {
+        transform: rotate(180deg);
+      }
+      .service-card-back {
+        transform: rotateY(180deg);
+        background-color: var(--hc-white);
+        border: 1px solid var(--hc-gray-200);
+        padding: clamp(22px, 3.5vw, 30px) clamp(18px, 3vw, 26px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-y: auto;
+      }
+      .service-box-item.is-ndis .service-card-back {
+        border-top: 4px solid var(--hc-ndis);
+      }
+      .service-box-item.is-ndis:hover .service-card-back {
+        box-shadow: 0 12px 28px var(--hc-ndis-glow);
+      }
+      .service-box-item.is-ndis .service-icon-wrap {
+        background-color: var(--hc-ndis-light);
+        color: var(--hc-ndis);
+      }
+      .service-box-item.is-ndis .service-badge-tag {
+        color: var(--hc-ndis);
+      }
+      .badge-ndis-card {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        background-color: var(--hc-ndis);
+        color: #ffffff;
+        font-size: 0.68rem;
+        font-weight: 800;
+        padding: 3px 8px;
+        border-radius: 6px;
+        margin-bottom: 12px;
+        width: fit-content;
+        box-shadow: 0 2px 6px var(--hc-ndis-glow);
+      }
+      .service-icon-wrap {
+        width: clamp(42px, 5.5vw, 48px);
+        height: clamp(42px, 5.5vw, 48px);
+        border-radius: 14px;
+        background-color: var(--hc-purple-light);
+        color: var(--hc-primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: clamp(1.2rem, 2vw, 1.35rem);
+        margin-bottom: 18px;
+      }
+      .service-heading {
+        font-size: clamp(1rem, 2vw, 1.1rem);
+        font-weight: 800;
+        color: var(--hc-purple-deep);
+        margin-bottom: 8px;
+      }
+      .service-body-copy {
+        font-size: clamp(0.8rem, 1.5vw, 0.84rem);
+        color: var(--hc-gray-500);
+        line-height: 1.6;
+        margin-bottom: 18px;
+      }
+      .service-inclusions {
+        margin-bottom: 18px;
+        font-size: 0.76rem;
+        color: var(--hc-gray-700);
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .service-inclusions li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .service-inclusions i {
+        color: var(--hc-primary);
+        font-size: 0.72rem;
+      }
+      .service-badge-tag {
+        font-size: 0.74rem;
+        font-weight: 700;
+        color: var(--hc-primary);
+        padding-top: 14px;
+        border-top: 1px solid var(--hc-gray-200);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      /* Client Reviews */
+      .reviews-wrapper {
+        background-color: var(--hc-purple-deep);
+        color: var(--hc-white);
+        padding: clamp(55px, 8vw, 85px) 0;
+      }
+      .reviews-tri-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: clamp(16px, 2.5vw, 24px);
+      }
+      .review-card-panel {
+        background-color: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(10px);
+        border-radius: var(--hc-radius-lg);
+        padding: clamp(22px, 3.5vw, 30px) clamp(18px, 3vw, 24px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .review-stars-row {
+        color: #fbbf24;
+        font-size: 0.85rem;
+        display: flex;
+        gap: 4px;
+        margin-bottom: 14px;
+      }
+      .review-quote-text {
+        font-size: clamp(0.82rem, 1.6vw, 0.88rem);
+        font-style: italic;
+        color: #e2e8f0;
+        line-height: 1.65;
+        margin-bottom: 20px;
+      }
+      .reviewer-meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 16px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .reviewer-name {
+        font-weight: 700;
+        font-size: 0.88rem;
+        color: var(--hc-white);
+      }
+      .reviewer-sub {
+        font-size: 0.74rem;
+        color: var(--hc-purple-accent);
+      }
+
+      /* FAQs */
+      .faq-wrapper-section {
+        padding: clamp(55px, 8vw, 85px) 0;
+        background-color: var(--hc-white);
+      }
+      .accordion-container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .faq-card-unit {
+        border: 1px solid var(--hc-gray-200);
+        border-radius: var(--hc-radius-md);
+        overflow: hidden;
+      }
+      .faq-trigger {
+        width: 100%;
+        padding: clamp(16px, 2.5vw, 20px);
+        background-color: var(--hc-gray-50);
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        font-weight: 800;
+        font-size: clamp(0.88rem, 1.8vw, 0.95rem);
+        color: var(--hc-purple-deep);
+        cursor: pointer;
+        min-height: 48px;
+        gap: 12px;
+        transition: background-color 0.2s;
+      }
+      .faq-trigger:hover {
+        background-color: var(--hc-purple-light);
+      }
+      .faq-arrow-icon {
+        font-size: 0.8rem;
+        color: var(--hc-gray-500);
+        transition: transform 0.2s ease;
+        flex-shrink: 0;
+      }
+      .faq-content-body {
+        display: none;
+        padding: clamp(16px, 2.5vw, 20px);
+        font-size: clamp(0.82rem, 1.6vw, 0.86rem);
+        line-height: 1.6;
+        color: var(--hc-gray-500);
+        background-color: var(--hc-white);
+        border-top: 1px solid var(--hc-gray-200);
+      }
+      .faq-card-unit.open .faq-content-body {
+        display: block;
+      }
+      .faq-card-unit.open .faq-arrow-icon {
+        transform: rotate(180deg);
+      }
+
+      /* Locations Section */
+      .locations-wrapper {
+        padding: clamp(45px, 6vw, 60px) 0;
+        background-color: var(--hc-purple-subtle);
+        border-top: 1px solid var(--hc-purple-light);
+      }
+      .state-tabs-row {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .state-tab {
+        background: var(--hc-white);
+        border: 1px solid var(--hc-purple-border);
+        padding: 8px 18px;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 0.82rem;
+        color: var(--hc-purple-deep);
+        cursor: pointer;
+        transition: var(--hc-transition);
+      }
+      .state-tab.active,
+      .state-tab:hover {
+        background-color: var(--hc-primary);
+        color: var(--hc-white);
+        border-color: var(--hc-primary);
+      }
+      .loc-grid-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+      .state-branch-card {
+        background-color: var(--hc-white);
+        padding: 20px;
+        border-radius: var(--hc-radius-md);
+        border: 1px solid var(--hc-purple-border);
+        box-shadow: var(--hc-shadow-sm);
+      }
+      .state-branch-card h4 {
+        font-size: 0.95rem;
+        font-weight: 800;
+        color: var(--hc-purple-deep);
+        margin-bottom: 6px;
+      }
+      .state-branch-card p {
+        font-size: 0.78rem;
+        color: var(--hc-gray-500);
+        margin-bottom: 12px;
+        line-height: 1.5;
+      }
+      .branch-phone-link {
+        font-size: 0.82rem;
+        font-weight: 700;
+        color: var(--hc-primary);
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      /* Site Footer */
+      .site-footer {
+        background-color: var(--hc-purple-dark);
+        color: #94a3b8;
+        font-size: 0.8rem;
+        border-top: 1px solid rgba(95, 29, 189, 0.4);
+      }
+      .acknowledgement-strip {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 16px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        text-align: center;
+        font-size: clamp(0.7rem, 1.3vw, 0.74rem);
+        color: #94a3b8;
+        line-height: 1.6;
+      }
+      .footer-quad-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1.3fr;
+        gap: clamp(24px, 4vw, 40px);
+        padding: clamp(40px, 6vw, 60px) 0 clamp(24px, 4vw, 40px);
+      }
+      .footer-column h4 {
+        font-size: 0.82rem;
+        font-weight: 800;
+        color: var(--hc-white);
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        margin-bottom: 16px;
+      }
+      .footer-links-col {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .footer-links-col a {
+        color: #94a3b8;
+        transition: color 0.2s;
+      }
+      .footer-links-col a:hover {
+        color: var(--hc-purple-accent);
+      }
+      .accreditation-card {
+        background-color: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: var(--hc-radius-md);
+        padding: 16px;
+        font-size: 0.76rem;
+      }
+      .accred-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--hc-purple-accent);
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+      .footer-baseline {
+        padding: 20px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        font-size: 0.74rem;
+      }
+
+      /* Floating Quick Contact */
+      .floating-call-pill {
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        z-index: 990;
+        background: linear-gradient(
+          135deg,
+          var(--hc-primary) 0%,
+          var(--hc-purple-hover) 100%
+        );
+        color: var(--hc-white);
+        border-radius: 9999px;
+        padding: 12px 20px;
+        font-weight: 800;
+        font-size: 0.84rem;
+        box-shadow: 0 10px 30px rgba(95, 29, 189, 0.45);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+      .floating-call-pill:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 14px 35px rgba(95, 29, 189, 0.55);
+      }
+
+      /* Responsive Breakpoints */
+      @media (max-width: 1024px) {
+        .main-nav {
+          display: none;
+        }
+        .mobile-menu-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .hero-grid {
+          grid-template-columns: 1fr;
+        }
+        .diff-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .services-catalog-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .reviews-tri-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .reviews-tri-grid > .review-card-panel:last-child {
+          grid-column: span 2;
+        }
+        .loc-grid-cards {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .footer-quad-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .top-bar-inner {
+          justify-content: center;
+          text-align: center;
+        }
+        .diff-grid {
+          grid-template-columns: 1fr;
+        }
+        .services-catalog-grid {
+          grid-template-columns: 1fr;
+        }
+        .reviews-tri-grid {
+          grid-template-columns: 1fr;
+        }
+        .reviews-tri-grid > .review-card-panel:last-child {
+          grid-column: span 1;
+        }
+        .loc-grid-cards {
+          grid-template-columns: 1fr;
+        }
+        .choice-grid {
+          grid-template-columns: 1fr;
+        }
+        .two-col-row {
+          grid-template-columns: 1fr;
+        }
+        .footer-quad-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .hero-bullets {
+          flex-direction: column;
+          gap: 8px;
+        }
+        .hero-actions {
+          flex-direction: column;
+          width: 100%;
+        }
+        .hero-actions .btn {
+          width: 100%;
+        }
+        .pathway-box {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 12px;
+        }
+        .pathway-action-tag {
+          margin-left: 0;
+          align-self: flex-end;
+        }
+        .pane-nav-bar {
+          flex-direction: column-reverse;
+        }
+        .pane-nav-bar .btn {
+          width: 100%;
+        }
+        .footer-baseline {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+
+      /* =========================================================
+       CARTOON BACKGROUND WATERMARKS: HOME CARE & NDIS
+       ========================================================= */
+      :root {
+        --wm-opacity: 0.085;
+        --wm-opacity-dark: 0.17;
+      }
+      html[data-watermark-mode='subtle'] {
+        --wm-opacity: 0.085;
+        --wm-opacity-dark: 0.17;
+      }
+      html[data-watermark-mode='clear'] {
+        --wm-opacity: 0.2;
+        --wm-opacity-dark: 0.32;
+      }
+      html[data-watermark-mode='vivid'] {
+        --wm-opacity: 0.38;
+        --wm-opacity-dark: 0.52;
+      }
+      html[data-watermark-mode='off'] {
+        --wm-opacity: 0;
+        --wm-opacity-dark: 0;
+      }
+
+      /* Section relative framing to house watermarks safely */
+      .hero-section,
+      .diff-section,
+      .wizard-wrap-section,
+      .wizard-card,
+      .services-wrapper,
+      .reviews-wrapper,
+      .faq-wrapper-section,
+      .locations-wrapper,
+      .site-footer {
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* Ensure content containers sit safely above background watermarks */
+      .hero-section > .container,
+      .diff-section > .container,
+      .wizard-wrap-section > .container,
+      .services-wrapper > .container,
+      .reviews-wrapper > .container,
+      .faq-wrapper-section > .container,
+      .locations-wrapper > .container,
+      .site-footer > .container {
+        position: relative;
+        z-index: 3;
+      }
+
+      /* Seamless Pattern Layer */
+      .cartoon-pattern-bg {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        user-select: none;
+        z-index: 1;
+        opacity: calc(var(--wm-opacity) * 0.7);
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280' viewBox='0 0 280 280'%3E%3Cg fill='none' stroke='%235F1DBD' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3C!-- Home --%3E%3Cpath d='M25 45 L50 25 L75 45'/%3E%3Cpath d='M32 45v25h36V45'/%3E%3Crect x='44' y='55' width='12' height='15' fill='%235CB8D4'/%3E%3Cpath d='M62 30v-8h6v12' fill='%23DE75CB'/%3E%3Cpath d='M65 18c0-1.5 1.5-2.5 3-2.5s3 1 3 2.5c0 3-6 6-6 6s-6-3-6-6c0-1.5 1.5-2.5 3-2.5s3 1 3 2.5z' fill='%23DE75CB' stroke='none'/%3E%3C!-- NDIS Wheelchair --%3E%3Ccircle cx='185' cy='60' r='18' stroke-width='2.5'/%3E%3Ccircle cx='185' cy='60' r='4' fill='%235CB8D4'/%3E%3Ccircle cx='210' cy='72' r='5' stroke-width='2'/%3E%3Cpath d='M175 35 L178 56 L204 56 L210 70' stroke-width='2.5'/%3E%3Ccircle cx='192' cy='25' r='8' fill='%23FFE4D6'/%3E%3Cpath d='M188 33 L198 33 L196 50 L184 50 Z' fill='%23DE75CB'/%3E%3Cpath d='M196 36 Q208 30 210 20' stroke-width='2' stroke='%23FFE4D6'/%3E%3C!-- Stethoscope Heart --%3E%3Cpath d='M35 150 C35 138 48 138 55 148 C62 138 75 138 75 150 C75 164 55 178 55 178 C55 178 35 164 35 150 Z' stroke='%235CB8D4' stroke-width='2.5' fill='none'/%3E%3Ccircle cx='55' cy='186' r='4' fill='%23DE75CB'/%3E%3C!-- Senior Cane & Spectacles --%3E%3Cpath d='M170 140 C170 128 184 128 184 140 L184 190' stroke-width='3.5'/%3E%3Ccircle cx='205' cy='150' r='7' fill='none' stroke-width='1.8'/%3E%3Ccircle cx='222' cy='150' r='7' fill='none' stroke-width='1.8'/%3E%3Cline x1='212' y1='150' x2='215' y2='150'/%3E%3C!-- Caring Hands and Heart --%3E%3Cpath d='M110 215 C100 205 90 220 115 235 C140 220 130 205 120 215' stroke='%23DE75CB' stroke-width='2' fill='none'/%3E%3C/g%3E%3C/svg%3E");
+        background-repeat: repeat;
+        background-size: 280px 280px;
+        transition: opacity 0.35s ease;
+      }
+      .hero-section .cartoon-pattern-bg,
+      .reviews-wrapper .cartoon-pattern-bg,
+      .site-footer .cartoon-pattern-bg {
+        opacity: calc(var(--wm-opacity-dark) * 0.4);
+        filter: invert(1) brightness(1.5);
+      }
+
+      /* Individual Cartoon Scene Watermarks */
+      .cartoon-watermark {
+        position: absolute;
+        pointer-events: none;
+        user-select: none;
+        z-index: 1;
+        opacity: var(--wm-opacity);
+        transition:
+          opacity 0.35s ease,
+          transform 0.6s ease;
+      }
+      .cartoon-watermark svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .hero-section .cartoon-watermark,
+      .reviews-wrapper .cartoon-watermark,
+      .site-footer .cartoon-watermark {
+        opacity: var(--wm-opacity-dark);
+      }
+
+      /* Floating subtle animations */
+      @keyframes wmFloatA {
+        0%,
+        100% {
+          transform: translateY(0) rotate(0deg);
+        }
+        50% {
+          transform: translateY(-12px) rotate(1.2deg);
+        }
+      }
+      @keyframes wmFloatB {
+        0%,
+        100% {
+          transform: translateY(0) rotate(0deg);
+        }
+        50% {
+          transform: translateY(14px) rotate(-1.5deg);
+        }
+      }
+      .wm-float-a {
+        animation: wmFloatA 14s ease-in-out infinite;
+      }
+      .wm-float-b {
+        animation: wmFloatB 16s ease-in-out infinite;
+      }
+
+      /* Precise placement classes */
+      .hero-wm-home {
+        top: -20px;
+        left: -30px;
+        width: clamp(260px, 34vw, 460px);
+        height: auto;
+      }
+      .hero-wm-ndis {
+        bottom: -30px;
+        right: -20px;
+        width: clamp(260px, 32vw, 440px);
+        height: auto;
+      }
+      .diff-wm-nurse {
+        top: 15px;
+        left: -20px;
+        width: clamp(180px, 20vw, 290px);
+        height: auto;
+      }
+      .diff-wm-van {
+        bottom: 5px;
+        right: -10px;
+        width: clamp(220px, 25vw, 360px);
+        height: auto;
+      }
+      .wizard-wm-card {
+        bottom: -35px;
+        right: -25px;
+        width: clamp(200px, 26vw, 320px);
+        height: auto;
+        z-index: 0;
+      }
+      .services-wm-elder {
+        top: 20px;
+        left: -20px;
+        width: clamp(190px, 20vw, 290px);
+        height: auto;
+      }
+      .services-wm-ndis {
+        bottom: 20px;
+        right: -20px;
+        width: clamp(210px, 22vw, 320px);
+        height: auto;
+      }
+      .reviews-wm-left {
+        top: 20px;
+        left: -20px;
+        width: clamp(200px, 22vw, 310px);
+        height: auto;
+      }
+      .reviews-wm-right {
+        bottom: 15px;
+        right: -20px;
+        width: clamp(220px, 24vw, 340px);
+        height: auto;
+      }
+      .footer-wm-hands {
+        bottom: 10px;
+        right: 4%;
+        width: clamp(240px, 28vw, 420px);
+        height: auto;
+      }
+
+      /* Watermark control button in top-bar */
+      .btn-watermark-mode {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background-color: rgba(92, 184, 212, 0.16);
+        border: 1px solid var(--hc-secondary);
+        color: #ffffff;
+        font-size: 0.72rem;
+        font-weight: 700;
+        padding: 4px 10px;
+        border-radius: 9999px;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .btn-watermark-mode:hover {
+        background-color: var(--hc-secondary);
+        color: #0f172a;
+      }
+      .btn-watermark-mode i {
+        color: var(--hc-secondary);
+      }
+      .btn-watermark-mode:hover i {
+        color: #0f172a;
+      }
+
+      /* Toast notification */
+      .wm-toast {
+        position: fixed;
+        bottom: 24px;
+        left: 50%;
+        transform: translateX(-50%) translateY(100px);
+        background-color: #1a0538;
+        color: #ffffff;
+        padding: 10px 22px;
+        border-radius: 9999px;
+        font-size: 0.82rem;
+        font-weight: 700;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        border: 1px solid var(--hc-secondary);
+        z-index: 9999;
+        opacity: 0;
+        pointer-events: none;
+        transition:
+          transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+          opacity 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .wm-toast.show {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+      }
+      .wm-toast i {
+        color: var(--hc-secondary);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top Announcement Bar -->
+    <aside class="top-bar">
+      <div class="container top-bar-inner">
+        <div class="top-badges">
+          <span class="badge-approved">
+            <i class="fa-solid fa-circle-check"></i> Approved Support at Home
+          </span>
+          <span class="badge-ndis">
+            <i class="fa-solid fa-shield-halved"></i> Registered NDIS Provider
+          </span>
+        </div>
+        <div class="top-links">
+          <button
+            class="btn-watermark-mode"
+            id="watermarkToggleBtn"
+            onclick="cycleWatermarkMode()"
+            title="Toggle cartoon home care & NDIS watermark intensity"
+          >
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Watermarks:
+            <span id="watermarkModeLabel">Subtle</span>
+          </button>
+          <button
+            class="btn-download-html"
+            onclick="downloadSingleHtml()"
+            title="Download this standalone single HTML file"
+          >
+            <i class="fa-solid fa-download"></i> Download Single HTML File
+          </button>
+          <span style="font-size: 0.74rem; color: #cbd5e1"
+            >24/7 Registered Nurse Triage</span
+          >
+          <a href="tel:1300875377" class="top-phone">
+            <i class="fa-solid fa-phone"></i> 1300 875 377
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Site Header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <!-- Brand Logo: STA Community Nursing & NDIS Services -->
+        <a
+          href="#"
+          class="brand-logo"
+          aria-label="STA Community Nursing &amp; NDIS Services Homepage"
+        >
+          <img
+            src="logo.png"
+            alt="STA Community Nursing &amp; NDIS Services"
+            class="brand-logo-svg"
+          />
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <nav class="main-nav" aria-label="Main Navigation">
+          <div class="nav-item">
+            <a href="#services" class="nav-link">
+              <span>Aged Care</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-panel">
+              <a
+                href="#services"
+                class="dropdown-item"
+                onclick="filterServices('aged-care')"
+              >
+                <strong class="dropdown-item-title"
+                  >Support at Home Program</strong
+                >
+                <span class="dropdown-item-desc"
+                  >Levels 1 through 8 Commonwealth home support</span
+                >
+              </a>
+              <a
+                href="#services"
+                class="dropdown-item"
+                onclick="filterServices('aged-care')"
+              >
+                <strong class="dropdown-item-title"
+                  >Personal Care &amp; Domestic</strong
+                >
+                <span class="dropdown-item-desc"
+                  >Showering, mobility, meal prep, and errands</span
+                >
+              </a>
+              <a
+                href="#services"
+                class="dropdown-item"
+                onclick="filterServices('aged-care')"
+              >
+                <strong class="dropdown-item-title"
+                  >Private In-Home Care</strong
+                >
+                <span class="dropdown-item-desc"
+                  >Immediate fee-for-service with zero waitlists</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="#services" class="nav-link">
+              <span>Disability Care</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-panel">
+              <a
+                href="#services"
+                class="dropdown-item"
+                onclick="filterServices('ndis')"
+              >
+                <strong class="dropdown-item-title"
+                  >NDIS Provider Services</strong
+                >
+                <span class="dropdown-item-desc"
+                  >Core support, community access &amp; transport</span
+                >
+              </a>
+              <a
+                href="#services"
+                class="dropdown-item"
+                onclick="filterServices('specialist')"
+              >
+                <strong class="dropdown-item-title"
+                  >Supported Living (SIL &amp; SDA)</strong
+                >
+                <span class="dropdown-item-desc"
+                  >24/7 supported accommodation &amp; homes</span
+                >
+              </a>
+              <a
+                href="#services"
+                class="dropdown-item"
+                onclick="filterServices('ndis')"
+              >
+                <strong class="dropdown-item-title"
+                  >Capacity &amp; Social Groups</strong
+                >
+                <span class="dropdown-item-desc"
+                  >Life skills, hobbies, and social connection</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="#services" class="nav-link">
+              <span>Specialist Care</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-panel">
+              <a
+                href="#services"
+                class="dropdown-item"
+                onclick="filterServices('specialist')"
+              >
+                <strong class="dropdown-item-title"
+                  >Dementia Caring Australia</strong
+                >
+                <span class="dropdown-item-desc"
+                  >Specialised memory care routines &amp; respite</span
+                >
+              </a>
+              <a
+                href="#services"
+                class="dropdown-item"
+                onclick="filterServices('specialist')"
+              >
+                <strong class="dropdown-item-title"
+                  >Complex &amp; Clinical Nursing</strong
+                >
+                <span class="dropdown-item-desc"
+                  >Catheter, wound care, PEG, tracheostomy</span
+                >
+              </a>
+              <a
+                href="#services"
+                class="dropdown-item"
+                onclick="filterServices('specialist')"
+              >
+                <strong class="dropdown-item-title"
+                  >24/7 Respite &amp; Live-In Carers</strong
+                >
+                <span class="dropdown-item-desc"
+                  >Dedicated live-in support for complete peace of mind</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="#difference" class="nav-link">The Difference</a>
+          </div>
+          <div class="nav-item">
+            <a href="#reviews" class="nav-link">Reviews</a>
+          </div>
+          <div class="nav-item"><a href="#faqs" class="nav-link">FAQs</a></div>
+          <div class="nav-item">
+            <a href="#locations" class="nav-link">Locations</a>
+          </div>
+        </nav>
+
+        <!-- Action Button & Mobile Hamburger -->
+        <div style="display: flex; align-items: center; gap: 10px">
+          <a href="#wizard-section" class="btn btn-primary btn-pulse">
+            <span>Book Assessment</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <button
+            class="mobile-menu-btn"
+            id="mobileMenuBtn"
+            aria-label="Open mobile menu"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+    <aside
+      class="mobile-drawer"
+      id="mobileDrawer"
+      aria-label="Mobile Navigation Drawer"
+    >
+      <div>
+        <div class="drawer-header">
+          <a
+            href="#"
+            class="brand-logo"
+            aria-label="STA Community Nursing &amp; NDIS Services Homepage"
+          >
+            <img
+              src="logo.png"
+              alt="STA Community Nursing &amp; NDIS Services"
+              class="brand-logo-svg in-drawer"
+            />
+          </a>
+          <button
+            class="drawer-close-btn"
+            id="drawerCloseBtn"
+            aria-label="Close menu"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <nav class="mobile-nav-links">
+          <a
+            href="#services"
+            class="mobile-nav-link"
+            onclick="
+              closeDrawer();
+              filterServices('aged-care');
+            "
+            >Support at Home &amp; Aged Care</a
+          >
+          <a
+            href="#services"
+            class="mobile-nav-link"
+            onclick="
+              closeDrawer();
+              filterServices('ndis');
+            "
+            >NDIS Disability Support</a
+          >
+          <a
+            href="#services"
+            class="mobile-nav-link"
+            onclick="
+              closeDrawer();
+              filterServices('specialist');
+            "
+            >Specialist &amp; Dementia Care</a
+          >
+          <a href="#difference" class="mobile-nav-link" onclick="closeDrawer()"
+            >The STA Care Difference</a
+          >
+          <a href="#reviews" class="mobile-nav-link" onclick="closeDrawer()"
+            >Client Reviews</a
+          >
+          <a href="#faqs" class="mobile-nav-link" onclick="closeDrawer()"
+            >Frequently Asked Questions</a
+          >
+          <a href="#locations" class="mobile-nav-link" onclick="closeDrawer()"
+            >Locations Across Australia</a
+          >
+        </nav>
+      </div>
+
+      <div style="margin-top: 24px">
+        <button
+          class="btn btn-outline-purple"
+          onclick="downloadSingleHtml()"
+          style="width: 100%; margin-bottom: 10px"
+        >
+          <i class="fa-solid fa-download"></i> Download Single HTML
+        </button>
+        <a
+          href="tel:1300875377"
+          class="btn btn-outline-purple"
+          style="width: 100%; margin-bottom: 10px"
+        >
+          <i class="fa-solid fa-phone"></i> Call 1300 875 377
+        </a>
+        <a
+          href="#wizard-section"
+          class="btn btn-primary"
+          onclick="closeDrawer()"
+          style="width: 100%"
+        >
+          Free Care Assessment
+        </a>
+      </div>
+    </aside>
+
+    <!-- Hero Banner -->
+    <main>
+      <section class="hero-section" id="hero">
+        <img
+          src="photo-hero-beach.jpg"
+          alt="STA support worker and client enjoying a sunset at the beach"
+          class="hero-bg-media"
+        />
+        <div class="hero-gradient"></div>
+
+        <!-- Cartoon Watermark Pattern Layer -->
+        <div class="cartoon-pattern-bg" aria-hidden="true"></div>
+
+        <!-- Cartoon Watermark 1: Cozy Home Care Cottage (Top-Left) -->
+        <div
+          class="cartoon-watermark hero-wm-home wm-float-a"
+          aria-hidden="true"
+        >
+          <svg
+            viewBox="0 0 340 280"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- Sun with smile -->
+            <circle cx="280" cy="50" r="32" fill="#FBBF24" opacity="0.9" />
+            <path
+              d="M280 8v-8M280 92v8M238 50h-8M322 50h8M250 20l-6-6M310 80l6 6M250 80l-6 6M310 20l6-6"
+              stroke="#FBBF24"
+              stroke-width="4"
+              stroke-linecap="round"
+            />
+            <path
+              d="M272 45c1 2 4 2 5 0M283 45c1 2 4 2 5 0M274 55c3 4 9 4 12 0"
+              stroke="#78350F"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            />
+            <!-- Cloud with pink heart -->
+            <path
+              d="M50 75c-12 0-22 10-22 22 0 3 1 5 2 7-10 3-16 12-16 22 0 13 11 22 24 22h86c13 0 24-11 24-24 0-11-7-21-18-23 1-4 1-7 1-11 0-18-16-35-34-35-6 0-12 2-17 5-5-6-11-10-17-10z"
+              fill="#EDF8FA"
+              stroke="#5CB8D4"
+              stroke-width="3.5"
+            />
+            <path
+              d="M70 94c0-5 5-8 10-8s10 3 10 8c0 10-20 20-20 20s-20-10-20-20c0-5 5-8 10-8s10 3 10 8z"
+              fill="#DE75CB"
+            />
+            <!-- Cottage House -->
+            <path
+              d="M140 100 L30 185 L55 185 L55 270 L225 270 L225 185 L250 185 Z"
+              fill="#FAF5FF"
+              stroke="#5F1DBD"
+              stroke-width="5"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 185 L140 90 L262 185"
+              stroke="#5F1DBD"
+              stroke-width="7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <!-- Chimney & Smoke Hearts -->
+            <rect
+              x="180"
+              y="115"
+              width="26"
+              height="42"
+              fill="#DE75CB"
+              rx="4"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <path
+              d="M193 92c0-4 4-6 7-6s7 2 7 6c0 7-14 14-14 14s-14-7-14-14c0-4 4-6 7-6s7 2 7 6z"
+              fill="#DE75CB"
+            />
+            <path
+              d="M210 65c0-3 3-5 6-5s6 2 6 5c0 6-12 12-12 12s-12-6-12-12c0-3 3-5 6-5s6 2 6 5z"
+              fill="#5CB8D4"
+            />
+            <!-- Door & Heart Wreath -->
+            <rect
+              x="115"
+              y="200"
+              width="50"
+              height="70"
+              rx="8"
+              fill="#5CB8D4"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <circle cx="152" cy="238" r="4.5" fill="#FFFFFF" />
+            <circle
+              cx="140"
+              cy="218"
+              r="12"
+              fill="none"
+              stroke="#DE75CB"
+              stroke-width="3.5"
+              stroke-dasharray="3 3"
+            />
+            <!-- Windows -->
+            <rect
+              x="68"
+              y="190"
+              width="32"
+              height="32"
+              rx="5"
+              fill="#FFFFFF"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+            />
+            <line
+              x1="84"
+              y1="190"
+              x2="84"
+              y2="222"
+              stroke="#5F1DBD"
+              stroke-width="2.5"
+            />
+            <line
+              x1="68"
+              y1="206"
+              x2="100"
+              y2="206"
+              stroke="#5F1DBD"
+              stroke-width="2.5"
+            />
+            <rect
+              x="180"
+              y="190"
+              width="32"
+              height="32"
+              rx="5"
+              fill="#FFFFFF"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+            />
+            <line
+              x1="196"
+              y1="190"
+              x2="196"
+              y2="222"
+              stroke="#5F1DBD"
+              stroke-width="2.5"
+            />
+            <line
+              x1="180"
+              y1="206"
+              x2="212"
+              y2="206"
+              stroke="#5F1DBD"
+              stroke-width="2.5"
+            />
+            <!-- Flowers -->
+            <path
+              d="M45 270 Q80 258 115 270 Q150 258 185 270 Q220 258 245 270"
+              stroke="#5CB8D4"
+              stroke-width="5"
+              fill="none"
+            />
+            <circle cx="62" cy="260" r="6.5" fill="#DE75CB" />
+            <circle cx="98" cy="260" r="6.5" fill="#FBBF24" />
+            <circle cx="205" cy="260" r="6.5" fill="#DE75CB" />
+            <circle cx="228" cy="260" r="6.5" fill="#5CB8D4" />
+          </svg>
+        </div>
+
+        <!-- Cartoon Watermark 2: Joyful NDIS Wheelchair Participant (Bottom-Right) -->
+        <div
+          class="cartoon-watermark hero-wm-ndis wm-float-b"
+          aria-hidden="true"
+        >
+          <svg
+            viewBox="0 0 340 300"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- Stars and Hearts in Sky -->
+            <path
+              d="M45 45 L50 32 L55 45 L68 50 L55 55 L50 68 L45 55 L32 50 Z"
+              fill="#FBBF24"
+            />
+            <path
+              d="M280 55 L284 44 L288 55 L299 59 L288 63 L284 74 L280 63 L269 59 Z"
+              fill="#DE75CB"
+            />
+            <path
+              d="M245 25c0-4 4-6 7-6s7 2 7 6c0 7-14 14-14 14s-14-7-14-14c0-4 4-6 7-6s7 2 7 6z"
+              fill="#DE75CB"
+            />
+            <!-- Big Wheelchair Wheels -->
+            <circle
+              cx="130"
+              cy="200"
+              r="60"
+              stroke="#5F1DBD"
+              stroke-width="8"
+              fill="#FFFFFF"
+            />
+            <circle
+              cx="130"
+              cy="200"
+              r="48"
+              stroke="#5CB8D4"
+              stroke-width="4"
+              fill="none"
+              stroke-dasharray="10 8"
+            />
+            <circle cx="130" cy="200" r="14" fill="#5F1DBD" />
+            <circle
+              cx="215"
+              cy="245"
+              r="16"
+              stroke="#5F1DBD"
+              stroke-width="5"
+              fill="#FFFFFF"
+            />
+            <circle cx="215" cy="245" r="5" fill="#5F1DBD" />
+            <!-- Wheelchair Frame -->
+            <path
+              d="M98 105 L105 185 L185 185 L215 240"
+              stroke="#5F1DBD"
+              stroke-width="8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              fill="none"
+            />
+            <line
+              x1="105"
+              y1="185"
+              x2="130"
+              y2="200"
+              stroke="#5F1DBD"
+              stroke-width="6"
+            />
+            <rect x="95" y="100" width="12" height="78" rx="5" fill="#5CB8D4" />
+            <!-- Head with Cap -->
+            <circle
+              cx="152"
+              cy="72"
+              r="28"
+              fill="#FFE4D6"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <!-- Baseball Cap -->
+            <path
+              d="M126 68 C126 45 142 40 168 45 L190 47 L190 58 L172 58 C166 58 132 58 126 68 Z"
+              fill="#5F1DBD"
+            />
+            <path
+              d="M168 50 L195 55"
+              stroke="#5CB8D4"
+              stroke-width="5"
+              stroke-linecap="round"
+            />
+            <!-- Smiling Face -->
+            <circle cx="162" cy="68" r="4" fill="#5F1DBD" />
+            <circle cx="144" cy="68" r="4" fill="#5F1DBD" />
+            <circle cx="140" cy="76" r="5" fill="#F6C6EE" />
+            <circle cx="166" cy="76" r="5" fill="#F6C6EE" />
+            <path
+              d="M148 78 Q154 88 162 78"
+              stroke="#5F1DBD"
+              stroke-width="3"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <!-- Torso & Star -->
+            <path
+              d="M134 102 L174 102 L170 162 L128 162 Z"
+              fill="#DE75CB"
+              stroke="#5F1DBD"
+              stroke-width="4"
+              rx="6"
+            />
+            <polygon
+              points="152,118 156,127 165,128 158,134 161,143 152,138 144,143 147,134 140,128 149,127"
+              fill="#FFFFFF"
+            />
+            <!-- Arms: One on Wheel, One High-Fiving / Thumbs Up -->
+            <path
+              d="M138 112 Q115 142 115 175"
+              stroke="#FFE4D6"
+              stroke-width="11"
+              stroke-linecap="round"
+            />
+            <path
+              d="M168 112 Q196 90 205 65"
+              stroke="#FFE4D6"
+              stroke-width="11"
+              stroke-linecap="round"
+            />
+            <circle
+              cx="207"
+              cy="62"
+              r="8"
+              fill="#FFE4D6"
+              stroke="#5F1DBD"
+              stroke-width="3"
+            />
+            <path
+              d="M205 57v-6"
+              stroke="#5F1DBD"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+            <!-- Legs & Sneakers -->
+            <path
+              d="M132 162 L185 162 L205 212"
+              stroke="#5CB8D4"
+              stroke-width="15"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              fill="none"
+            />
+            <rect
+              x="195"
+              y="208"
+              width="28"
+              height="15"
+              rx="6"
+              fill="#5F1DBD"
+            />
+            <path d="M195 218h28" stroke="#FFFFFF" stroke-width="2.5" />
+            <!-- NDIS Flag on pole -->
+            <line
+              x1="98"
+              y1="105"
+              x2="98"
+              y2="30"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <path
+              d="M98 32 L145 45 L98 60 Z"
+              fill="#DE75CB"
+              stroke="#5F1DBD"
+              stroke-width="3"
+            />
+            <text
+              x="102"
+              y="50"
+              fill="#FFFFFF"
+              font-family="'Plus Jakarta Sans', sans-serif"
+              font-weight="900"
+              font-size="12"
+            >
+              NDIS
+            </text>
+          </svg>
+        </div>
+
+        <div class="container">
+          <div class="hero-grid">
+            <!-- Hero Copy -->
+            <div>
+              <div class="hero-eyebrow-pill">
+                <i class="fa-solid fa-heart-pulse"></i> Trusted by 10,000+
+                Australian Families
+              </div>
+
+              <h1 class="hero-title">
+                Right People  <span>Right Support.</span>
+              </h1>
+
+              <p class="hero-lead">
+                We deliver compassionate in-home care and NDIS disability
+                support so you can feel confident, comfortable, and in control
+                of your life at home. Support built around your personal goals,
+                not the system.
+              </p>
+
+              <div class="hero-bullets">
+                <span
+                  ><i class="fa-solid fa-circle-check"></i> Zero Hidden or Exit
+                  Fees</span
+                >
+                <span
+                  ><i class="fa-solid fa-circle-check"></i> 100% Local Dedicated
+                  Carers</span
+                >
+                <span
+                  ><i class="fa-solid fa-circle-check"></i> 24/7 Registered
+                  Nurse On-Call</span
+                >
+              </div>
+
+              <div class="hero-actions">
+                <a
+                  href="#wizard-section"
+                  class="btn btn-primary"
+                  style="padding: 14px 28px"
+                >
+                  <span>Book Free Consultation</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a
+                  href="tel:1300875377"
+                  class="btn btn-ghost-light"
+                  style="padding: 14px 24px"
+                >
+                  <i
+                    class="fa-solid fa-phone"
+                    style="color: var(--hc-purple-accent)"
+                  ></i>
+                  1300 875 377
+                </a>
+              </div>
+            </div>
+
+            <!-- Hero Pathway Fast Select Cards -->
+            <div class="pathways-column">
+              <div class="pathway-box" onclick="selectPathway('aged-care')">
+                <div class="pathway-box-content">
+                  <div class="pathway-icon-square">
+                    <i class="fa-solid fa-house-chimney-user"></i>
+                  </div>
+                  <div>
+                    <h4>I need support at home</h4>
+                    <p>Support at Home &amp; HCP Levels 1 through 8</p>
+                  </div>
+                </div>
+                <span class="pathway-action-tag"
+                  >Select <i class="fa-solid fa-chevron-right"></i
+                ></span>
+              </div>
+
+              <div class="pathway-box is-ndis" onclick="selectPathway('ndis')">
+                <div class="pathway-box-content">
+                  <div class="pathway-icon-square">
+                    <i class="fa-solid fa-wheelchair"></i>
+                  </div>
+                  <div>
+                    <div style="display: flex; align-items: center; gap: 8px">
+                      <h4 style="margin: 0">I need an NDIS provider</h4>
+                      <span
+                        style="
+                          background-color: var(--hc-ndis);
+                          color: #ffffff;
+                          font-size: 0.64rem;
+                          font-weight: 800;
+                          padding: 2px 7px;
+                          border-radius: 4px;
+                          letter-spacing: 0.5px;
+                        "
+                        >NDIS #DE75CB</span
+                      >
+                    </div>
+                    <p>Core supports, daily living &amp; social transport</p>
+                  </div>
+                </div>
+                <span class="pathway-action-tag"
+                  >Select <i class="fa-solid fa-chevron-right"></i
+                ></span>
+              </div>
+
+              <div class="pathway-box" onclick="selectPathway('sil')">
+                <div class="pathway-box-content">
+                  <div class="pathway-icon-square">
+                    <i class="fa-solid fa-building-user"></i>
+                  </div>
+                  <div>
+                    <h4>I need supported living (SIL / SDA)</h4>
+                    <p>Supported Independent Living accommodations</p>
+                  </div>
+                </div>
+                <span class="pathway-action-tag"
+                  >Select <i class="fa-solid fa-chevron-right"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- The STA Community Care Difference -->
+      <section class="diff-section" id="difference">
+        <!-- Cartoon Watermark Pattern Layer -->
+        <div class="cartoon-pattern-bg" aria-hidden="true"></div>
+
+        <!-- Cartoon Watermark 3: Caring Community Nurse (Top-Left) -->
+        <div
+          class="cartoon-watermark diff-wm-nurse wm-float-b"
+          aria-hidden="true"
+        >
+          <svg
+            viewBox="0 0 280 300"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- Nurse Cap with Cross -->
+            <path
+              d="M100 50 Q140 34 180 50 L175 70 Q140 62 105 70 Z"
+              fill="#FFFFFF"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <rect x="134" y="48" width="12" height="12" rx="3" fill="#DE75CB" />
+            <path
+              d="M140 50v8M136 54h8"
+              stroke="#FFFFFF"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            />
+            <!-- Hair & Head -->
+            <path
+              d="M95 85 C90 55 115 50 140 50 C165 50 190 55 185 85 C185 96 190 104 193 112 C182 112 174 100 174 94 C163 90 117 90 106 94 C106 100 98 112 87 112 C90 104 95 96 95 85 Z"
+              fill="#5F1DBD"
+            />
+            <circle
+              cx="140"
+              cy="95"
+              r="34"
+              fill="#FFE4D6"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <path
+              d="M124 90c2 4 8 4 10 0M146 90c2 4 8 4 10 0"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <circle cx="121" cy="100" r="6" fill="#F6C6EE" />
+            <circle cx="159" cy="100" r="6" fill="#F6C6EE" />
+            <path
+              d="M132 102 Q140 112 148 102"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <!-- Scrubs in Cyan #5CB8D4 -->
+            <path
+              d="M104 135 L86 195 L112 198 L115 265 L165 265 L168 198 L194 195 L176 135 Q140 152 104 135 Z"
+              fill="#5CB8D4"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <path
+              d="M128 138 L140 156 L152 138"
+              stroke="#5F1DBD"
+              stroke-width="4"
+              fill="none"
+            />
+            <!-- ID Badge -->
+            <rect
+              x="120"
+              y="165"
+              width="18"
+              height="24"
+              rx="3"
+              fill="#DE75CB"
+              stroke="#5F1DBD"
+              stroke-width="2.5"
+            />
+            <line
+              x1="124"
+              y1="173"
+              x2="134"
+              y2="173"
+              stroke="#FFFFFF"
+              stroke-width="2.5"
+            />
+            <!-- Stethoscope Heart -->
+            <path
+              d="M124 138 Q110 170 126 202 Q140 222 140 236"
+              stroke="#5F1DBD"
+              stroke-width="4.5"
+              fill="none"
+              stroke-linecap="round"
+            />
+            <path
+              d="M156 138 Q170 170 154 202 Q140 222 140 236"
+              stroke="#5F1DBD"
+              stroke-width="4.5"
+              fill="none"
+              stroke-linecap="round"
+            />
+            <circle
+              cx="140"
+              cy="240"
+              r="8"
+              fill="#DE75CB"
+              stroke="#5F1DBD"
+              stroke-width="3"
+            />
+            <!-- Waving Hand -->
+            <path
+              d="M188 190 Q208 175 220 155"
+              stroke="#FFE4D6"
+              stroke-width="13"
+              stroke-linecap="round"
+            />
+            <circle
+              cx="222"
+              cy="152"
+              r="9"
+              fill="#FFE4D6"
+              stroke="#5F1DBD"
+              stroke-width="3"
+            />
+            <!-- Heart with wings -->
+            <path
+              d="M238 122c0-6 6-10 12-10s12 4 12 10c0 12-24 24-24 24s-24-12-24-24c0-6 6-10 12-10s12 4 12 10z"
+              fill="#DE75CB"
+            />
+          </svg>
+        </div>
+
+        <!-- Cartoon Watermark 4: Community Transport Van (Bottom-Right) -->
+        <div
+          class="cartoon-watermark diff-wm-van wm-float-a"
+          aria-hidden="true"
+        >
+          <svg
+            viewBox="0 0 340 240"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="10"
+              y1="210"
+              x2="330"
+              y2="210"
+              stroke="#CBD5E1"
+              stroke-width="5"
+              stroke-linecap="round"
+              stroke-dasharray="16 12"
+            />
+            <path
+              d="M40 180 L40 95 Q40 72 65 72 L210 72 L275 125 L285 180 Z"
+              fill="#FFFFFF"
+              stroke="#5F1DBD"
+              stroke-width="6"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M40 144 L210 144 L280 148 L283 166 L40 166 Z"
+              fill="#5CB8D4"
+            />
+            <path d="M40 166 L283 166 L285 178 L40 178 Z" fill="#DE75CB" />
+            <path
+              d="M210 85 L262 126 L210 126 Z"
+              fill="#EDF8FA"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+            />
+            <rect
+              x="135"
+              y="85"
+              width="65"
+              height="42"
+              rx="5"
+              fill="#EDF8FA"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+            />
+            <rect
+              x="60"
+              y="85"
+              width="65"
+              height="42"
+              rx="5"
+              fill="#EDF8FA"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+            />
+            <!-- Driver Silhouette -->
+            <circle cx="232" cy="110" r="11" fill="#5F1DBD" />
+            <circle cx="230" cy="108" r="2.5" fill="#FFFFFF" />
+            <!-- Big Wheels -->
+            <circle
+              cx="95"
+              cy="188"
+              r="28"
+              fill="#1A0538"
+              stroke="#5F1DBD"
+              stroke-width="5"
+            />
+            <circle cx="95" cy="188" r="13" fill="#CBD5E1" />
+            <circle cx="95" cy="188" r="4.5" fill="#5F1DBD" />
+            <circle
+              cx="240"
+              cy="188"
+              r="28"
+              fill="#1A0538"
+              stroke="#5F1DBD"
+              stroke-width="5"
+            />
+            <circle cx="240" cy="188" r="13" fill="#CBD5E1" />
+            <circle cx="240" cy="188" r="4.5" fill="#5F1DBD" />
+            <!-- Wheelchair access logo -->
+            <g transform="translate(90, 93) scale(0.7)">
+              <circle cx="16" cy="6" r="6" fill="#5F1DBD" />
+              <path
+                d="M16 12v16h14M11 22a12 12 0 1 0 12 12"
+                stroke="#5F1DBD"
+                stroke-width="3.5"
+                fill="none"
+                stroke-linecap="round"
+              />
+            </g>
+            <!-- Exhaust heart puff -->
+            <path
+              d="M18 172c0-4 4-6 7-6s7 2 7 6c0 8-14 15-14 15s-14-7-14-15c0-4 4-6 7-6s7 2 7 6z"
+              fill="#DE75CB"
+              opacity="0.8"
+            />
+          </svg>
+        </div>
+
+        <div class="container">
+          <div class="section-center-head">
+            <span class="section-kicker">Why Choose STA Services</span>
+            <h2 class="section-main-title">
+              The STA Community Care Difference
+            </h2>
+            <p class="section-description">
+              Combining local community understanding with clinical nursing
+              excellence, transparent fee structures, and responsive
+              coordination across Australia.
+            </p>
+          </div>
+
+          <div class="diff-grid">
+            <div class="diff-card">
+              <div class="diff-card-icon">
+                <i class="fa-solid fa-comments"></i>
+              </div>
+              <h3>Prompt Communication</h3>
+              <p>
+                Direct contact with your local coordinator in the language and
+                format you prefer.
+              </p>
+            </div>
+
+            <div class="diff-card">
+              <div class="diff-card-icon">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+              <h3>Local To Your Suburb</h3>
+              <p>
+                Delivered by local franchise directors and dedicated carers
+                living in your community.
+              </p>
+            </div>
+
+            <div class="diff-card">
+              <div class="diff-card-icon">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+              </div>
+              <h3>Zero Exit / Hidden Fees</h3>
+              <p>
+                Transparent fee structure so you receive maximum hours of actual
+                hands-on care.
+              </p>
+            </div>
+
+            <div class="diff-card">
+              <div class="diff-card-icon">
+                <i class="fa-solid fa-user-nurse"></i>
+              </div>
+              <h3>Clinical RN Oversight</h3>
+              <p>
+                Strong clinical governance and 24/7 on-call nurse triage for
+                complex and high care needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive 4-Step Intake Wizard -->
+      <section class="wizard-wrap-section" id="wizard-section">
+        <!-- Cartoon Watermark Pattern Layer -->
+        <div class="cartoon-pattern-bg" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="wizard-card">
+            <!-- Cartoon Watermark 5: Caring Hands & NDIS Shield (Inside Card Corner) -->
+            <div
+              class="cartoon-watermark wizard-wm-card wm-float-a"
+              aria-hidden="true"
+            >
+              <svg
+                viewBox="0 0 340 260"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Cradling Hands -->
+                <path
+                  d="M90 170 C50 135 25 155 10 190 C-5 225 20 255 70 255 L270 255 C320 255 345 225 330 190 C315 155 290 135 250 170 Z"
+                  fill="#FAF5FF"
+                  stroke="#5F1DBD"
+                  stroke-width="4.5"
+                />
+                <path
+                  d="M25 180 Q45 160 65 180 M12 205 Q35 190 55 210"
+                  stroke="#5CB8D4"
+                  stroke-width="3.5"
+                  stroke-linecap="round"
+                  fill="none"
+                />
+                <path
+                  d="M315 180 Q295 160 275 180 M328 205 Q305 190 285 210"
+                  stroke="#5CB8D4"
+                  stroke-width="3.5"
+                  stroke-linecap="round"
+                  fill="none"
+                />
+                <!-- Central Shield -->
+                <g transform="translate(125, 45)">
+                  <path
+                    d="M45 20 Q5 20 5 65 Q5 130 45 165 Q85 130 85 65 Q85 20 45 20 Z"
+                    fill="#5F1DBD"
+                    stroke="#DE75CB"
+                    stroke-width="4.5"
+                  />
+                  <path
+                    d="M45 68c0-10 10-18 20-18s20 8 20 18c0 20-40 40-40 40s-40-20-40-40c0-10 10-18 20-18s20 8 20 18z"
+                    fill="#DE75CB"
+                    transform="scale(0.55) translate(36, 42)"
+                  />
+                  <path
+                    d="M42 60h6v6h6v6h-6v6h-6v-6h-6v-6h6v-6z"
+                    fill="#FFFFFF"
+                  />
+                  <text
+                    x="45"
+                    y="132"
+                    fill="#FFFFFF"
+                    text-anchor="middle"
+                    font-family="'Plus Jakarta Sans', sans-serif"
+                    font-weight="900"
+                    font-size="12"
+                    letter-spacing="1"
+                  >
+                    NDIS
+                  </text>
+                </g>
+                <!-- Floating Band-aid -->
+                <g transform="translate(30, 85) rotate(-20)">
+                  <rect
+                    x="0"
+                    y="0"
+                    width="75"
+                    height="26"
+                    rx="13"
+                    fill="#FFE4D6"
+                    stroke="#5F1DBD"
+                    stroke-width="3"
+                  />
+                  <rect
+                    x="24"
+                    y="0"
+                    width="27"
+                    height="26"
+                    fill="#FFFFFF"
+                    stroke="#5F1DBD"
+                    stroke-width="2"
+                  />
+                  <circle cx="37" cy="13" r="3.5" fill="#DE75CB" />
+                </g>
+                <!-- Floating Stethoscope -->
+                <g transform="translate(235, 70) rotate(18)">
+                  <path
+                    d="M15 15 C15 5 28 5 35 15 C42 5 55 5 55 15 C55 28 35 42 35 42 C35 42 15 28 15 15 Z"
+                    fill="none"
+                    stroke="#5CB8D4"
+                    stroke-width="4"
+                  />
+                  <circle cx="35" cy="46" r="6" fill="#5F1DBD" />
+                </g>
+              </svg>
+            </div>
+
+            <div class="section-center-head" style="margin-bottom: 24px">
+              <span class="section-kicker">Fast Care Matching</span>
+              <h2
+                class="section-main-title"
+                style="font-size: clamp(1.45rem, 3vw, 1.85rem)"
+              >
+                Let's Get Started — How Can We Help?
+              </h2>
+              <p class="section-description">
+                Complete these 4 simple steps to connect directly with your
+                local STA care coordinator.
+              </p>
+            </div>
+
+            <!-- Wizard Progress Bar -->
+            <div class="wizard-progress">
+              <div class="wizard-progress-track"></div>
+              <div
+                class="wizard-progress-bar"
+                id="wizardBar"
+                style="width: 25%"
+              ></div>
+              <div class="step-circle active" id="dot1">1</div>
+              <div class="step-circle" id="dot2">2</div>
+              <div class="step-circle" id="dot3">3</div>
+              <div class="step-circle" id="dot4">4</div>
+            </div>
+
+            <!-- Step 1: Target -->
+            <div class="wizard-pane active" id="pane1">
+              <h3 class="pane-title">
+                Step 1 of 4: Who are you enquiring for?
+              </h3>
+              <div class="choice-grid">
+                <label class="choice-label selected">
+                  <input
+                    type="radio"
+                    name="enquiryTarget"
+                    value="Myself"
+                    checked
+                    onchange="updateRadioSelection(this)"
+                  />
+                  <span>I'm enquiring for myself</span>
+                </label>
+                <label class="choice-label">
+                  <input
+                    type="radio"
+                    name="enquiryTarget"
+                    value="Family member"
+                    onchange="updateRadioSelection(this)"
+                  />
+                  <span>A family member (Parent / Child)</span>
+                </label>
+                <label class="choice-label">
+                  <input
+                    type="radio"
+                    name="enquiryTarget"
+                    value="Professional referral"
+                    onchange="updateRadioSelection(this)"
+                  />
+                  <span>Professional referral (Support Coordinator / GP)</span>
+                </label>
+                <label class="choice-label">
+                  <input
+                    type="radio"
+                    name="enquiryTarget"
+                    value="Friend / Neighbour"
+                    onchange="updateRadioSelection(this)"
+                  />
+                  <span>A friend or neighbour</span>
+                </label>
+              </div>
+              <div class="pane-nav-bar" style="justify-content: flex-end">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  onclick="setWizardStep(2)"
+                >
+                  <span>Continue</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 2: Support Type & Funding -->
+            <div class="wizard-pane" id="pane2">
+              <h3 class="pane-title">
+                Step 2 of 4: What type of support is needed?
+              </h3>
+              <div class="input-field-group">
+                <label class="field-caption">Care / Support Pathway *</label>
+                <select class="form-input" id="careSelect">
+                  <option value="Support at Home / Aged Care (Levels 1 - 8)">
+                    Support at Home / Aged Care (Levels 1 - 8)
+                  </option>
+                  <option value="NDIS Disability Support (Core &amp; Capacity)">
+                    NDIS Disability Support (Core &amp; Capacity)
+                  </option>
+                  <option value="Supported Independent Living (SIL / SDA)">
+                    Supported Independent Living (SIL / SDA)
+                  </option>
+                  <option value="Dementia Caring Australia Program">
+                    Dementia Caring Australia Program
+                  </option>
+                  <option value="Private / Self-Funded Care">
+                    Private / Self-Funded Care
+                  </option>
+                </select>
+              </div>
+              <div class="input-field-group">
+                <label class="field-caption">Funding Status *</label>
+                <select class="form-input" id="fundingSelect">
+                  <option value="Funding approved &amp; ready to start">
+                    Funding approved &amp; ready to start
+                  </option>
+                  <option value="Applied, awaiting approval">
+                    Applied, awaiting approval
+                  </option>
+                  <option value="Need assistance applying for funding">
+                    Need assistance applying for funding
+                  </option>
+                  <option value="Currently with another provider (Switching)">
+                    Currently with another provider (Switching)
+                  </option>
+                  <option value="Self-funded / Private">
+                    Self-funded / Private
+                  </option>
+                </select>
+              </div>
+              <div class="pane-nav-bar">
+                <button
+                  type="button"
+                  class="btn btn-outline-purple"
+                  onclick="setWizardStep(1)"
+                >
+                  Back
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  onclick="setWizardStep(3)"
+                >
+                  <span>Continue</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 3: Location -->
+            <div class="wizard-pane" id="pane3">
+              <h3 class="pane-title">
+                Step 3 of 4: Where is support required?
+              </h3>
+              <div class="two-col-row">
+                <div class="input-field-group">
+                  <label class="field-caption">State / Territory *</label>
+                  <select class="form-input" id="stateSelect">
+                    <option value="NSW">New South Wales (NSW)</option>
+                    <option value="VIC">Victoria (VIC)</option>
+                    <option value="QLD">Queensland (QLD)</option>
+                    <option value="WA">Western Australia (WA)</option>
+                    <option value="SA">South Australia (SA)</option>
+                    <option value="ACT">
+                      Australian Capital Territory (ACT)
+                    </option>
+                  </select>
+                </div>
+                <div class="input-field-group">
+                  <label class="field-caption">Suburb or Postcode *</label>
+                  <input
+                    type="text"
+                    class="form-input"
+                    id="suburbInput"
+                    placeholder="e.g. Parramatta 2150"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="input-field-group">
+                <label class="field-caption">Estimated Start Urgency</label>
+                <select class="form-input" id="urgencySelect">
+                  <option value="Immediately (Within 48 hours)">
+                    Immediately (Within 48 hours)
+                  </option>
+                  <option value="Within 1 to 2 weeks">
+                    Within 1 to 2 weeks
+                  </option>
+                  <option value="Next month">Next month</option>
+                  <option value="Just planning ahead">
+                    Just planning ahead
+                  </option>
+                </select>
+              </div>
+              <div class="pane-nav-bar">
+                <button
+                  type="button"
+                  class="btn btn-outline-purple"
+                  onclick="setWizardStep(2)"
+                >
+                  Back
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  onclick="setWizardStep(4)"
+                >
+                  <span>Continue</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 4: Contact & Submit -->
+            <div class="wizard-pane" id="pane4">
+              <h3 class="pane-title">Step 4 of 4: How can we reach you?</h3>
+              <form onsubmit="handleWizardSubmit(event)">
+                <div class="two-col-row">
+                  <div class="input-field-group">
+                    <label class="field-caption">First Name *</label>
+                    <input
+                      type="text"
+                      class="form-input"
+                      id="firstNameInput"
+                      placeholder="Sarah"
+                      required
+                    />
+                  </div>
+                  <div class="input-field-group">
+                    <label class="field-caption">Last Name *</label>
+                    <input
+                      type="text"
+                      class="form-input"
+                      id="lastNameInput"
+                      placeholder="Jenkins"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="two-col-row">
+                  <div class="input-field-group">
+                    <label class="field-caption">Phone Number *</label>
+                    <input
+                      type="tel"
+                      class="form-input"
+                      id="phoneInput"
+                      placeholder="0400 000 000"
+                      required
+                    />
+                  </div>
+                  <div class="input-field-group">
+                    <label class="field-caption">Email Address *</label>
+                    <input
+                      type="email"
+                      class="form-input"
+                      id="emailInput"
+                      placeholder="sarah@example.com.au"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="input-field-group">
+                  <label class="field-caption"
+                    >Additional Notes or Preferred Care Times (Optional)</label
+                  >
+                  <textarea
+                    class="form-input"
+                    id="notesInput"
+                    rows="3"
+                    placeholder="Tell us about specific days, preferred languages, cultural preferences, or clinical routines..."
+                  ></textarea>
+                </div>
+                <div class="pane-nav-bar">
+                  <button
+                    type="button"
+                    class="btn btn-outline-purple"
+                    onclick="setWizardStep(3)"
+                  >
+                    Back
+                  </button>
+                  <button
+                    type="submit"
+                    class="btn btn-primary"
+                    style="padding: 14px 28px"
+                  >
+                    <span>Submit &amp; Connect Local Team</span>
+                    <i class="fa-solid fa-check"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Confirmation Screen (In-page, no window.alert) -->
+            <div class="confirmation-view" id="confirmationPane">
+              <div class="success-icon-badge">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <h3
+                style="
+                  font-size: 1.45rem;
+                  font-weight: 800;
+                  color: var(--hc-purple-deep);
+                "
+              >
+                Thank You! Your Enquiry Is Confirmed
+              </h3>
+              <p
+                style="
+                  font-size: 0.88rem;
+                  color: var(--hc-gray-500);
+                  max-width: 520px;
+                  margin: 8px auto 0;
+                "
+              >
+                Your details have been received by your local STA care team. A
+                local coordinator will contact you within 24 business hours.
+              </p>
+
+              <div class="ref-badge" id="refBadge">
+                Enquiry Reference: STA-84920
+              </div>
+
+              <div class="summary-card" id="enquirySummaryCard">
+                <strong
+                  style="
+                    color: var(--hc-purple-deep);
+                    display: block;
+                    margin-bottom: 6px;
+                  "
+                  >Enquiry Summary:</strong
+                >
+                <ul id="summaryList">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <strong>Care:</strong>
+                    <span id="sumCare">Support at Home</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <strong>Location:</strong> <span id="sumLocation">NSW</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <strong>Contact:</strong> <span id="sumContact">Sarah</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  gap: 12px;
+                  flex-wrap: wrap;
+                "
+              >
+                <a href="tel:1300875377" class="btn btn-primary">
+                  <i class="fa-solid fa-phone"></i> Call 1300 875 377 Now
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-outline-purple"
+                  onclick="resetWizard()"
+                >
+                  Submit Another Enquiry
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Catalog with Filter Tabs -->
+      <section class="services-wrapper" id="services">
+        <!-- Cartoon Watermark Pattern Layer -->
+        <div class="cartoon-pattern-bg" aria-hidden="true"></div>
+
+        <!-- Cartoon Watermark 6: Senior Client with Cane & Tea (Top-Left) -->
+        <div
+          class="cartoon-watermark services-wm-elder wm-float-a"
+          aria-hidden="true"
+        >
+          <svg
+            viewBox="0 0 280 300"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="140"
+              cy="95"
+              r="42"
+              fill="#CBD5E1"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <circle
+              cx="140"
+              cy="50"
+              r="18"
+              fill="#CBD5E1"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <circle
+              cx="140"
+              cy="115"
+              r="32"
+              fill="#FFE4D6"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <!-- Glasses -->
+            <circle
+              cx="130"
+              cy="112"
+              r="10"
+              fill="none"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+            />
+            <circle
+              cx="150"
+              cy="112"
+              r="10"
+              fill="none"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+            />
+            <line
+              x1="140"
+              y1="112"
+              x2="140"
+              y2="112"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <path
+              d="M126 112c1 3 6 3 7 0M147 112c1 3 6 3 7 0"
+              stroke="#5F1DBD"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            />
+            <circle cx="122" cy="122" r="5" fill="#F6C6EE" />
+            <circle cx="158" cy="122" r="5" fill="#F6C6EE" />
+            <path
+              d="M133 128 Q140 136 147 128"
+              stroke="#5F1DBD"
+              stroke-width="3"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <!-- Cardigan in Lavender & Teal Buttons -->
+            <path
+              d="M112 150 L95 220 L120 220 L120 280 L160 280 L160 220 L185 220 L168 150 Q140 162 112 150 Z"
+              fill="#D8B4FE"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <circle cx="140" cy="190" r="4.5" fill="#5CB8D4" />
+            <circle cx="140" cy="220" r="4.5" fill="#5CB8D4" />
+            <circle cx="140" cy="250" r="4.5" fill="#5CB8D4" />
+            <!-- Walking Cane -->
+            <path
+              d="M190 175 C190 155 210 155 210 175 L210 285"
+              stroke="#5F1DBD"
+              stroke-width="8"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <rect x="204" y="280" width="12" height="9" rx="3" fill="#5CB8D4" />
+            <circle
+              cx="201"
+              cy="178"
+              r="9"
+              fill="#FFE4D6"
+              stroke="#5F1DBD"
+              stroke-width="3"
+            />
+            <!-- Hot Tea Cup -->
+            <rect
+              x="85"
+              y="195"
+              width="24"
+              height="20"
+              rx="4"
+              fill="#DE75CB"
+              stroke="#5F1DBD"
+              stroke-width="3"
+            />
+            <path
+              d="M109 200 C116 200 116 210 109 210"
+              stroke="#5F1DBD"
+              stroke-width="3"
+              fill="none"
+            />
+            <path
+              d="M92 185 Q97 175 92 165 M101 185 Q106 175 101 165"
+              stroke="#5CB8D4"
+              stroke-width="3"
+              stroke-linecap="round"
+              fill="none"
+            />
+          </svg>
+        </div>
+
+        <!-- Cartoon Watermark 7: NDIS Wheelchair Star (Bottom-Right) -->
+        <div
+          class="cartoon-watermark services-wm-ndis wm-float-b"
+          aria-hidden="true"
+        >
+          <svg
+            viewBox="0 0 340 300"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="130"
+              cy="200"
+              r="56"
+              stroke="#5F1DBD"
+              stroke-width="7"
+              fill="#FFFFFF"
+            />
+            <circle
+              cx="130"
+              cy="200"
+              r="44"
+              stroke="#DE75CB"
+              stroke-width="4"
+              fill="none"
+              stroke-dasharray="8 6"
+            />
+            <circle cx="130" cy="200" r="12" fill="#5F1DBD" />
+            <circle
+              cx="215"
+              cy="245"
+              r="14"
+              stroke="#5F1DBD"
+              stroke-width="5"
+              fill="#FFFFFF"
+            />
+            <path
+              d="M98 110 L105 185 L185 185 L215 240"
+              stroke="#5F1DBD"
+              stroke-width="7"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <circle
+              cx="152"
+              cy="72"
+              r="26"
+              fill="#FFE4D6"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <circle cx="160" cy="68" r="3.5" fill="#5F1DBD" />
+            <circle cx="144" cy="68" r="3.5" fill="#5F1DBD" />
+            <path
+              d="M148 76 Q154 84 160 76"
+              stroke="#5F1DBD"
+              stroke-width="3"
+              fill="none"
+            />
+            <path
+              d="M134 100 L172 100 L168 158 L128 158 Z"
+              fill="#5CB8D4"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <path
+              d="M138 112 Q115 142 115 175"
+              stroke="#FFE4D6"
+              stroke-width="10"
+              stroke-linecap="round"
+            />
+            <path
+              d="M168 112 Q200 90 210 65"
+              stroke="#FFE4D6"
+              stroke-width="10"
+              stroke-linecap="round"
+            />
+            <circle
+              cx="212"
+              cy="62"
+              r="7"
+              fill="#FFE4D6"
+              stroke="#5F1DBD"
+              stroke-width="2.5"
+            />
+            <path
+              d="M132 158 L185 158 L205 210"
+              stroke="#DE75CB"
+              stroke-width="14"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <rect
+              x="195"
+              y="206"
+              width="26"
+              height="14"
+              rx="5"
+              fill="#5F1DBD"
+            />
+            <!-- Star and Heart Badges -->
+            <polygon
+              points="152,114 155,122 163,123 157,128 159,136 152,132 145,136 147,128 141,123 149,122"
+              fill="#FFFFFF"
+            />
+            <path
+              d="M235 45 L240 32 L245 45 L258 50 L245 55 L240 68 L235 55 L222 50 Z"
+              fill="#FBBF24"
+            />
+          </svg>
+        </div>
+
+        <div class="container">
+          <div class="section-center-head">
+            <span class="section-kicker">Comprehensive In-Home Care</span>
+            <h2 class="section-main-title">
+              Support Services You Can Count On
+            </h2>
+            <p class="section-description">
+              From everyday personal assistance and domestic support to
+              specialized dementia care, clinical nursing, and SIL
+              accommodations.
+            </p>
+          </div>
+
+          <!-- Filter Pills -->
+          <div class="filter-pills-row">
+            <button
+              class="filter-pill active"
+              onclick="filterServices('all', this)"
+            >
+              All Services
+            </button>
+            <button
+              class="filter-pill"
+              onclick="filterServices('aged-care', this)"
+            >
+              Support at Home / Aged Care
+            </button>
+            <button
+              class="filter-pill ndis-pill"
+              onclick="filterServices('ndis', this)"
+            >
+              <i
+                class="fa-solid fa-shield-halved"
+                style="margin-right: 4px"
+              ></i>
+              NDIS Disability Support
+            </button>
+            <button
+              class="filter-pill"
+              onclick="filterServices('specialist', this)"
+            >
+              Specialist Clinical &amp; SIL
+            </button>
+          </div>
+
+          <div class="services-catalog-grid" id="servicesGrid">
+            <!-- Card 1 -->
+            <div class="service-box-item" data-category="aged-care ndis">
+              <div class="service-card-inner">
+                <div class="service-card-front">
+                  <img
+                    class="service-card-photo"
+                    src="campaign-confidence.jpg"
+                    alt="Support worker walking alongside a client, offering personal care and mobility assistance"
+                    loading="lazy"
+                  />
+                  <div class="service-card-photo-overlay"></div>
+                  <div class="service-card-front-content">
+                    <div class="service-icon-wrap-photo">
+                      <i class="fa-solid fa-hand-holding-heart"></i>
+                    </div>
+                    <h3 class="service-heading-photo">
+                      Personal Care &amp; Hygiene
+                    </h3>
+                    <span class="flip-hint"
+                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      details</span
+                    >
+                  </div>
+                </div>
+                <div class="service-card-back">
+                  <div>
+                    <div class="service-icon-wrap">
+                      <i class="fa-solid fa-hand-holding-heart"></i>
+                    </div>
+                    <h3 class="service-heading">Personal Care &amp; Hygiene</h3>
+                    <p class="service-body-copy">
+                      Dignified support with showering, dressing, grooming,
+                      toileting, and gentle mobility assistance respecting
+                      privacy.
+                    </p>
+                    <ul class="service-inclusions">
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Morning &amp;
+                        evening routines
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Gentle
+                        transfer &amp; hoist support
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Respect for
+                        dignity and privacy
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="service-badge-tag">
+                    <span>Aged Care &amp; NDIS Core</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="service-box-item" data-category="aged-care ndis">
+              <div class="service-card-inner">
+                <div class="service-card-front">
+                  <img
+                    class="service-card-photo"
+                    src="campaign-grow.jpg"
+                    alt="Support worker helping a client prepare a fresh meal in the kitchen"
+                    loading="lazy"
+                  />
+                  <div class="service-card-photo-overlay"></div>
+                  <div class="service-card-front-content">
+                    <div class="service-icon-wrap-photo">
+                      <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h3 class="service-heading-photo">
+                      Domestic Assistance &amp; Meals
+                    </h3>
+                    <span class="flip-hint"
+                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      details</span
+                    >
+                  </div>
+                </div>
+                <div class="service-card-back">
+                  <div>
+                    <div class="service-icon-wrap">
+                      <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h3 class="service-heading">
+                      Domestic Assistance &amp; Meals
+                    </h3>
+                    <p class="service-body-copy">
+                      Light housekeeping, sanitising living areas, fresh meal
+                      preparation, grocery shopping, and laundry care.
+                    </p>
+                    <ul class="service-inclusions">
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Nutritious
+                        fresh home cooking
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Sanitary
+                        linen &amp; laundry cleaning
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Errands &amp;
+                        pantry restocking
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="service-badge-tag">
+                    <span>Household Tasks</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="service-box-item" data-category="specialist aged-care">
+              <div class="service-card-inner">
+                <div class="service-card-front">
+                  <img
+                    class="service-card-photo"
+                    src="campaign-belong.jpg"
+                    alt="Support worker keeping an older client company while she reads at home"
+                    loading="lazy"
+                  />
+                  <div class="service-card-photo-overlay"></div>
+                  <div class="service-card-front-content">
+                    <div class="service-icon-wrap-photo">
+                      <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3 class="service-heading-photo">
+                      Dementia Caring Australia
+                    </h3>
+                    <span class="flip-hint"
+                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      details</span
+                    >
+                  </div>
+                </div>
+                <div class="service-card-back">
+                  <div>
+                    <div class="service-icon-wrap">
+                      <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3 class="service-heading">Dementia Caring Australia</h3>
+                    <p class="service-body-copy">
+                      Specialised cognitive memory care, sensory environments,
+                      comforting communication techniques, and family respite.
+                    </p>
+                    <ul class="service-inclusions">
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Memory cues
+                        &amp; sensory engagement
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Calm
+                        de-escalation routines
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Carer relief
+                        &amp; peace of mind
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="service-badge-tag">
+                    <span>Specialist Dementia Care</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="service-box-item" data-category="specialist">
+              <div class="service-card-inner">
+                <div class="service-card-front">
+                  <img
+                    class="service-card-photo"
+                    src="campaign-together.jpg"
+                    alt="Support worker sitting closely with a client, sharing a caring moment"
+                    loading="lazy"
+                  />
+                  <div class="service-card-photo-overlay"></div>
+                  <div class="service-card-front-content">
+                    <div class="service-icon-wrap-photo">
+                      <i class="fa-solid fa-user-nurse"></i>
+                    </div>
+                    <h3 class="service-heading-photo">
+                      Complex &amp; Clinical Nursing
+                    </h3>
+                    <span class="flip-hint"
+                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      details</span
+                    >
+                  </div>
+                </div>
+                <div class="service-card-back">
+                  <div>
+                    <div class="service-icon-wrap">
+                      <i class="fa-solid fa-user-nurse"></i>
+                    </div>
+                    <h3 class="service-heading">
+                      Complex &amp; Clinical Nursing
+                    </h3>
+                    <p class="service-body-copy">
+                      Catheter management, tracheostomy care, PEG feeding,
+                      wound management, and medication administration
+                      overseen by RNs.
+                    </p>
+                    <ul class="service-inclusions">
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Registered
+                        Nurse clinical care
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Complex wound
+                        &amp; bowel therapy
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> 24/7 on-call
+                        clinical triage
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="service-badge-tag">
+                    <span>RN Clinical Governance</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="service-box-item is-ndis" data-category="ndis">
+              <div class="service-card-inner">
+                <div class="service-card-front">
+                  <img
+                    class="service-card-photo"
+                    src="campaign-independence.jpg"
+                    alt="Support worker accompanying a client on a community outing"
+                    loading="lazy"
+                  />
+                  <div class="service-card-photo-overlay"></div>
+                  <div class="service-card-front-content">
+                    <div class="badge-ndis-card">
+                      <i class="fa-solid fa-shield-halved"></i> NDIS Core
+                      #DE75CB
+                    </div>
+                    <div class="service-icon-wrap-photo">
+                      <i class="fa-solid fa-car-side"></i>
+                    </div>
+                    <h3 class="service-heading-photo">
+                      NDIS Core &amp; Social Transport
+                    </h3>
+                    <span class="flip-hint"
+                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      details</span
+                    >
+                  </div>
+                </div>
+                <div class="service-card-back">
+                  <div>
+                    <div class="badge-ndis-card">
+                      <i class="fa-solid fa-shield-halved"></i> NDIS Core
+                      #DE75CB
+                    </div>
+                    <div class="service-icon-wrap">
+                      <i class="fa-solid fa-car-side"></i>
+                    </div>
+                    <h3 class="service-heading">
+                      NDIS Core &amp; Social Transport
+                    </h3>
+                    <p class="service-body-copy">
+                      Accompanied transport to medical appointments, community
+                      outings, sporting clubs, hobby courses, and social
+                      events.
+                    </p>
+                    <ul class="service-inclusions">
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Wheelchair
+                        accessible transport
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Community
+                        events &amp; sports
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Capacity
+                        building &amp; autonomy
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="service-badge-tag">
+                    <span>NDIS Core Supports</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div
+              class="service-box-item is-ndis"
+              data-category="specialist ndis"
+            >
+              <div class="service-card-inner">
+                <div class="service-card-front">
+                  <img
+                    class="service-card-photo"
+                    src="campaign-create.jpg"
+                    alt="Support worker joining a client in a creative painting activity at home"
+                    loading="lazy"
+                  />
+                  <div class="service-card-photo-overlay"></div>
+                  <div class="service-card-front-content">
+                    <div class="badge-ndis-card">
+                      <i class="fa-solid fa-shield-halved"></i> NDIS Supported
+                      #DE75CB
+                    </div>
+                    <div class="service-icon-wrap-photo">
+                      <i class="fa-solid fa-building-user"></i>
+                    </div>
+                    <h3 class="service-heading-photo">
+                      Supported Living (SIL &amp; SDA)
+                    </h3>
+                    <span class="flip-hint"
+                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      details</span
+                    >
+                  </div>
+                </div>
+                <div class="service-card-back">
+                  <div>
+                    <div class="badge-ndis-card">
+                      <i class="fa-solid fa-shield-halved"></i> NDIS Supported
+                      #DE75CB
+                    </div>
+                    <div class="service-icon-wrap">
+                      <i class="fa-solid fa-building-user"></i>
+                    </div>
+                    <h3 class="service-heading">
+                      Supported Living (SIL &amp; SDA)
+                    </h3>
+                    <p class="service-body-copy">
+                      24/7 supported accommodation, SDA homes, and planned
+                      respite stays for individuals with high support
+                      disability needs.
+                    </p>
+                    <ul class="service-inclusions">
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> 24/7 active
+                        awake support staff
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Purpose-built
+                        accessible homes
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-circle-check"></i> Social
+                        housemate matching
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="service-badge-tag">
+                    <span>Supported Accommodation</span>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Client Reviews -->
+      <section class="reviews-wrapper" id="reviews">
+        <!-- Cartoon Watermark Pattern Layer -->
+        <div class="cartoon-pattern-bg" aria-hidden="true"></div>
+
+        <!-- Cartoon Watermark 8: Caring Nurse & Stethoscope (Top-Left) -->
+        <div
+          class="cartoon-watermark reviews-wm-left wm-float-a"
+          aria-hidden="true"
+        >
+          <svg
+            viewBox="0 0 280 300"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="140"
+              cy="95"
+              r="34"
+              fill="#FFE4D6"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <path
+              d="M100 50 Q140 34 180 50 L175 70 Q140 62 105 70 Z"
+              fill="#FFFFFF"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <rect x="134" y="48" width="12" height="12" rx="3" fill="#DE75CB" />
+            <path
+              d="M140 50v8M136 54h8"
+              stroke="#FFFFFF"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            />
+            <path
+              d="M124 90c2 4 8 4 10 0M146 90c2 4 8 4 10 0"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <circle cx="121" cy="100" r="6" fill="#F6C6EE" />
+            <circle cx="159" cy="100" r="6" fill="#F6C6EE" />
+            <path
+              d="M132 102 Q140 112 148 102"
+              stroke="#5F1DBD"
+              stroke-width="3.5"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <path
+              d="M104 135 L86 195 L112 198 L115 265 L165 265 L168 198 L194 195 L176 135 Q140 152 104 135 Z"
+              fill="#5CB8D4"
+              stroke="#5F1DBD"
+              stroke-width="4"
+            />
+            <path
+              d="M128 138 L140 156 L152 138"
+              stroke="#5F1DBD"
+              stroke-width="4"
+              fill="none"
+            />
+            <path
+              d="M124 138 Q110 170 126 202 Q140 222 140 236"
+              stroke="#5F1DBD"
+              stroke-width="4.5"
+              fill="none"
+              stroke-linecap="round"
+            />
+            <path
+              d="M156 138 Q170 170 154 202 Q140 222 140 236"
+              stroke="#5F1DBD"
+              stroke-width="4.5"
+              fill="none"
+              stroke-linecap="round"
+            />
+            <circle
+              cx="140"
+              cy="240"
+              r="8"
+              fill="#DE75CB"
+              stroke="#5F1DBD"
+              stroke-width="3"
+            />
+            <path
+              d="M238 122c0-6 6-10 12-10s12 4 12 10c0 12-24 24-24 24s-24-12-24-24c0-6 6-10 12-10s12 4 12 10z"
+              fill="#DE75CB"
+            />
+          </svg>
+        </div>
+
+        <!-- Cartoon Watermark 9: Heart & NDIS Shield Star (Bottom-Right) -->
+        <div
+          class="cartoon-watermark reviews-wm-right wm-float-b"
+          aria-hidden="true"
+        >
+          <svg
+            viewBox="0 0 340 260"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M90 170 C50 135 25 155 10 190 C-5 225 20 255 70 255 L270 255 C320 255 345 225 330 190 C315 155 290 135 250 170 Z"
+              fill="#FAF5FF"
+              stroke="#5F1DBD"
+              stroke-width="4.5"
+            />
+            <g transform="translate(125, 45)">
+              <path
+                d="M45 20 Q5 20 5 65 Q5 130 45 165 Q85 130 85 65 Q85 20 45 20 Z"
+                fill="#5F1DBD"
+                stroke="#DE75CB"
+                stroke-width="4.5"
+              />
+              <path d="M42 60h6v6h6v6h-6v6h-6v-6h-6v-6h6v-6z" fill="#FFFFFF" />
+              <text
+                x="45"
+                y="132"
+                fill="#FFFFFF"
+                text-anchor="middle"
+                font-family="'Plus Jakarta Sans', sans-serif"
+                font-weight="900"
+                font-size="12"
+                letter-spacing="1"
+              >
+                NDIS
+              </text>
+            </g>
+            <path
+              d="M45 45 L50 32 L55 45 L68 50 L55 55 L50 68 L45 55 L32 50 Z"
+              fill="#FBBF24"
+            />
+          </svg>
+        </div>
+
+        <div class="container">
+          <div class="section-center-head">
+            <span class="section-kicker" style="color: var(--hc-purple-accent)"
+              >Verified Testimonials</span
+            >
+            <h2 class="section-main-title" style="color: var(--hc-white)">
+              See What Others Say About Our Care
+            </h2>
+            <p class="section-description" style="color: #cbd5e1">
+              Real experiences from Australian participants, clients, and family
+              members.
+            </p>
+          </div>
+
+          <div class="reviews-tri-grid">
+            <div class="review-card-panel">
+              <div>
+                <div class="review-stars-row">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-quote-text">
+                  “The staff and team at STA Community Nursing are proactive,
+                  punctual, and very supportive. They went out of their way to
+                  adapt to my mother's daily routine. Highly recommend!”
+                </p>
+              </div>
+              <div class="reviewer-meta">
+                <div>
+                  <div class="reviewer-name">April M.</div>
+                  <div class="reviewer-sub">
+                    Sydney, NSW &bull; Support at Home
+                  </div>
+                </div>
+                <i
+                  class="fa-solid fa-quote-right"
+                  style="color: rgba(255, 255, 255, 0.25); font-size: 1.5rem"
+                ></i>
+              </div>
+            </div>
+
+            <div class="review-card-panel">
+              <div>
+                <div class="review-stars-row">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-quote-text">
+                  “STA Community Care staff were exceptionally friendly, warm,
+                  and responsive. They answered every question promptly and made
+                  our NDIS transition smooth and stress-free.”
+                </p>
+              </div>
+              <div class="reviewer-meta">
+                <div>
+                  <div class="reviewer-name">Kate B.</div>
+                  <div class="reviewer-sub">
+                    Melbourne, VIC &bull;
+                    <span
+                      style="
+                        background-color: var(--hc-ndis);
+                        color: #ffffff;
+                        font-size: 0.68rem;
+                        font-weight: 800;
+                        padding: 2px 7px;
+                        border-radius: 4px;
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 4px;
+                      "
+                      ><i class="fa-solid fa-shield-halved"></i> NDIS
+                      Participant</span
+                    >
+                  </div>
+                </div>
+                <i
+                  class="fa-solid fa-quote-right"
+                  style="color: rgba(255, 255, 255, 0.25); font-size: 1.5rem"
+                ></i>
+              </div>
+            </div>
+
+            <div class="review-card-panel">
+              <div>
+                <div class="review-stars-row">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-quote-text">
+                  “The flexibility and genuine care of this service is
+                  outstanding. They truly put the customer first and assisted my
+                  friend in achieving full independence at home.”
+                </p>
+              </div>
+              <div class="reviewer-meta">
+                <div>
+                  <div class="reviewer-name">Angela T.</div>
+                  <div class="reviewer-sub">
+                    Brisbane, QLD &bull; SIL Living Support
+                  </div>
+                </div>
+                <i
+                  class="fa-solid fa-quote-right"
+                  style="color: rgba(255, 255, 255, 0.25); font-size: 1.5rem"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQs -->
+      <section class="faq-wrapper-section" id="faqs">
+        <!-- Cartoon Watermark Pattern Layer -->
+        <div class="cartoon-pattern-bg" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="section-center-head">
+            <span class="section-kicker">Helpful Answers</span>
+            <h2 class="section-main-title">Frequently Asked Questions</h2>
+          </div>
+
+          <div class="accordion-container">
+            <div class="faq-card-unit open">
+              <button class="faq-trigger" onclick="toggleAccordion(this)">
+                <span
+                  >What services does STA Community Nursing &amp; NDIS Services
+                  provide?</span
+                >
+                <i class="fa-solid fa-chevron-down faq-arrow-icon"></i>
+              </button>
+              <div class="faq-content-body">
+                STA Community Nursing &amp; NDIS Services provides in-home aged
+                care (Support at Home / HCP Levels 1-8), NDIS disability
+                support, Supported Independent Living (SIL / SDA), dementia
+                memory care, complex clinical nursing, respite care, and private
+                fee-for-service care across Australia.
+              </div>
+            </div>
+
+            <div class="faq-card-unit">
+              <button class="faq-trigger" onclick="toggleAccordion(this)">
+                <span>Will my care team be local to my suburb?</span>
+                <i class="fa-solid fa-chevron-down faq-arrow-icon"></i>
+              </button>
+              <div class="faq-content-body">
+                Yes. Your care is led by a local STA care director and qualified
+                support workers who live and work right in your local community.
+                That means faster response times, familiar community knowledge,
+                and consistent carers.
+              </div>
+            </div>
+
+            <div class="faq-card-unit">
+              <button class="faq-trigger" onclick="toggleAccordion(this)">
+                <span>How quickly can services start after my assessment?</span>
+                <i class="fa-solid fa-chevron-down faq-arrow-icon"></i>
+              </button>
+              <div class="faq-content-body">
+                We understand that timing matters. Our local coordinators
+                typically provide a free in-home consultation within 24–48
+                hours, and can have an approved care plan active within just a
+                few business days.
+              </div>
+            </div>
+
+            <div class="faq-card-unit">
+              <button class="faq-trigger" onclick="toggleAccordion(this)">
+                <span>What if I do not have government funding yet?</span>
+                <i class="fa-solid fa-chevron-down faq-arrow-icon"></i>
+              </button>
+              <div class="faq-content-body">
+                We can help! Our care advisors will assist you through the My
+                Aged Care or NDIS application process free of charge. In the
+                meantime, you can also access immediate private care with zero
+                waitlists.
+              </div>
+            </div>
+
+            <div class="faq-card-unit">
+              <button class="faq-trigger" onclick="toggleAccordion(this)">
+                <span
+                  >Are there any exit fees or hidden management charges?</span
+                >
+                <i class="fa-solid fa-chevron-down faq-arrow-icon"></i>
+              </button>
+              <div class="faq-content-body">
+                No. STA Community Nursing &amp; NDIS Services has a strict
+                transparent pricing policy. We charge 0% exit fees and zero
+                hidden administrative charges, ensuring that maximum funding
+                goes toward direct care hours.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- National Locations & Regional Hubs -->
+      <section class="locations-wrapper" id="locations">
+        <!-- Cartoon Watermark Pattern Layer -->
+        <div class="cartoon-pattern-bg" aria-hidden="true"></div>
+
+        <div class="container">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              flex-wrap: wrap;
+              gap: 12px;
+            "
+          >
+            <div>
+              <h3
+                style="
+                  font-size: clamp(1.15rem, 2.5vw, 1.35rem);
+                  font-weight: 800;
+                  color: var(--hc-purple-deep);
+                "
+              >
+                National Locations &amp; Regional Hubs
+              </h3>
+              <p style="font-size: 0.8rem; color: var(--hc-gray-500)">
+                Over 50+ local hubs providing comprehensive care across
+                Australian metropolitan and regional areas.
+              </p>
+            </div>
+            <span
+              style="
+                font-size: 0.78rem;
+                font-weight: 700;
+                background: var(--hc-primary);
+                color: #fff;
+                padding: 6px 14px;
+                border-radius: 8px;
+              "
+            >
+              50+ Local Hubs
+            </span>
+          </div>
+
+          <!-- State Selector Tabs -->
+          <div class="state-tabs-row">
+            <button
+              class="state-tab active"
+              onclick="switchStateTab('NSW', this)"
+            >
+              New South Wales
+            </button>
+            <button class="state-tab" onclick="switchStateTab('VIC', this)">
+              Victoria
+            </button>
+            <button class="state-tab" onclick="switchStateTab('QLD', this)">
+              Queensland
+            </button>
+            <button class="state-tab" onclick="switchStateTab('WA', this)">
+              Western Australia
+            </button>
+            <button class="state-tab" onclick="switchStateTab('SA', this)">
+              South Australia
+            </button>
+            <button class="state-tab" onclick="switchStateTab('ACT', this)">
+              ACT
+            </button>
+          </div>
+
+          <div class="loc-grid-cards" id="locationsGrid">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+      <!-- Cartoon Watermark Pattern Layer -->
+      <div class="cartoon-pattern-bg" aria-hidden="true"></div>
+
+      <!-- Cartoon Watermark 10: Caring Hands Cradling Heart & Shield (Bottom-Right Footer) -->
+      <div
+        class="cartoon-watermark footer-wm-hands wm-float-a"
+        aria-hidden="true"
+      >
+        <svg
+          viewBox="0 0 340 260"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M90 170 C50 135 25 155 10 190 C-5 225 20 255 70 255 L270 255 C320 255 345 225 330 190 C315 155 290 135 250 170 Z"
+            fill="#FAF5FF"
+            stroke="#5F1DBD"
+            stroke-width="4.5"
+          />
+          <g transform="translate(125, 45)">
+            <path
+              d="M45 20 Q5 20 5 65 Q5 130 45 165 Q85 130 85 65 Q85 20 45 20 Z"
+              fill="#5F1DBD"
+              stroke="#DE75CB"
+              stroke-width="4.5"
+            />
+            <path d="M42 60h6v6h6v6h-6v6h-6v-6h-6v-6h6v-6z" fill="#FFFFFF" />
+            <text
+              x="45"
+              y="132"
+              fill="#FFFFFF"
+              text-anchor="middle"
+              font-family="'Plus Jakarta Sans', sans-serif"
+              font-weight="900"
+              font-size="12"
+              letter-spacing="1"
+            >
+              NDIS
+            </text>
+          </g>
+          <path
+            d="M25 180 Q45 160 65 180 M12 205 Q35 190 55 210"
+            stroke="#5CB8D4"
+            stroke-width="3.5"
+            stroke-linecap="round"
+            fill="none"
+          />
+          <path
+            d="M315 180 Q295 160 275 180 M328 205 Q305 190 285 210"
+            stroke="#5CB8D4"
+            stroke-width="3.5"
+            stroke-linecap="round"
+            fill="none"
+          />
+        </svg>
+      </div>
+
+      <!-- Traditional Custodians Acknowledgement -->
+      <div class="acknowledgement-strip">
+        <div class="container">
+          STA Community Nursing &amp; NDIS Services acknowledges the Traditional
+          Owners and Custodians of Country throughout Australia and recognizes
+          their continuing connection to land, sea, and community. We pay our
+          respects to Elders past, present, and emerging.
+        </div>
+      </div>
+
+      <!-- Main Footer Columns -->
+      <div class="container">
+        <div class="footer-quad-grid">
+          <!-- Col 1: About -->
+          <div class="footer-column">
+            <a
+              href="#"
+              class="brand-logo"
+              style="margin-bottom: 16px"
+              aria-label="STA Community Nursing &amp; NDIS Services Homepage"
+            >
+              <img
+                src="logo.png"
+                alt="STA Community Nursing &amp; NDIS Services"
+                class="brand-logo-svg in-footer"
+              />
+            </a>
+            <p
+              style="line-height: 1.6; margin-bottom: 16px; font-size: 0.78rem"
+            >
+              STA Community Nursing &amp; NDIS Services is an approved Support
+              at Home aged care provider and registered NDIS provider delivering
+              person-centred support across Australia.
+            </p>
+            <p style="font-size: 0.78rem; line-height: 1.6">
+              <strong>National Support Office:</strong> Suite 1, Level 1/18
+              Smith St, Parramatta NSW 2150<br />
+              <strong>Operations Centre:</strong> 327-329 Woodpark Rd,
+              Smithfield NSW 2164<br />
+              <strong>Phone:</strong>
+              <a
+                href="tel:1300875377"
+                style="color: var(--hc-secondary-accent); font-weight: 700"
+                >1300 875 377</a
+              ><br />
+              <strong>Email:</strong>
+              <a
+                href="mailto:info@stacommunitynursing.com.au"
+                style="color: var(--hc-secondary-accent)"
+                >info@stacommunitynursing.com.au</a
+              >
+            </p>
+          </div>
+
+          <!-- Col 2: Services -->
+          <div class="footer-column">
+            <h4>Care Services</h4>
+            <div class="footer-links-col">
+              <a href="#services" onclick="filterServices('aged-care')"
+                >Support at Home</a
+              >
+              <a
+                href="#services"
+                onclick="filterServices('ndis')"
+                style="color: var(--hc-secondary-accent); font-weight: 600"
+                >NDIS Disability Support</a
+              >
+              <a href="#services" onclick="filterServices('specialist')"
+                >Supported Living (SIL &amp; SDA)</a
+              >
+              <a href="#services" onclick="filterServices('specialist')"
+                >Dementia Memory Care</a
+              >
+              <a href="#services" onclick="filterServices('specialist')"
+                >Complex RN Nursing</a
+              >
+              <a href="#services" onclick="filterServices('aged-care')"
+                >Respite &amp; Live-In Carers</a
+              >
+            </div>
+          </div>
+
+          <!-- Col 3: Quick Navigation -->
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <div class="footer-links-col">
+              <a href="#difference">The STA Care Difference</a>
+              <a href="#wizard-section">Book Care Assessment</a>
+              <a href="#reviews">Participant Reviews</a>
+              <a href="#faqs">Frequently Asked Questions</a>
+              <a href="#locations">Branch Directory</a>
+              <button
+                onclick="downloadSingleHtml()"
+                style="
+                  background: none;
+                  border: none;
+                  padding: 0;
+                  color: #94a3b8;
+                  text-align: left;
+                  cursor: pointer;
+                  font-size: 0.8rem;
+                "
+              >
+                Download Single HTML File
+              </button>
+            </div>
+          </div>
+
+          <!-- Col 4: Accreditation -->
+          <div class="footer-column">
+            <h4>Accreditation</h4>
+            <div
+              class="accreditation-card"
+              style="
+                border: 1px solid var(--hc-ndis-border);
+                background-color: rgba(222, 117, 203, 0.1);
+              "
+            >
+              <div
+                class="accred-row"
+                style="
+                  color: #ffffff;
+                  background-color: var(--hc-ndis);
+                  padding: 5px 10px;
+                  border-radius: 6px;
+                  display: inline-flex;
+                  align-items: center;
+                  gap: 6px;
+                  font-weight: 800;
+                  margin-bottom: 10px;
+                  box-shadow: 0 2px 8px var(--hc-ndis-glow);
+                "
+              >
+                <i class="fa-solid fa-shield-halved"></i> Registered NDIS
+                Provider
+              </div>
+              <div
+                class="accred-row"
+                style="color: var(--hc-secondary); font-weight: 700"
+              >
+                <i class="fa-solid fa-circle-check"></i> Approved Support at
+                Home
+              </div>
+              <p
+                style="
+                  color: #cbd5e1;
+                  font-size: 0.72rem;
+                  line-height: 1.5;
+                  margin-top: 6px;
+                "
+              >
+                Fully compliant with the Aged Care Quality and Safety Standards
+                &amp; NDIS Practice Standards.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Baseline -->
+        <div class="footer-baseline">
+          <span
+            >&copy; 2026 STA Community Nursing &amp; NDIS Services. All rights
+            reserved. Secondary: #5CB8D4 &bull; NDIS: #DE75CB &bull; Primary:
+            #5F1DBD.</span
+          >
+          <div style="display: flex; gap: 18px">
+            <a href="#" style="color: #94a3b8">Privacy Policy</a>
+            <a href="#" style="color: #94a3b8">Terms &amp; Conditions</a>
+            <a href="#" style="color: #94a3b8">Code of Conduct</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Call Button -->
+    <a
+      href="tel:1300875377"
+      class="floating-call-pill"
+      aria-label="Call 1300 875 377"
+    >
+      <i class="fa-solid fa-phone-volume"></i>
+      <span>1300 875 377</span>
+    </a>
+
+    <!-- ================= EMBEDDED JAVASCRIPT LOGIC ================= -->
+    <script>
+      // State locations data
+      const locationsData = {
+        NSW: [
+          {
+            name: 'Parramatta & Western Sydney',
+            address: 'Suite 1, 18 Smith St, Parramatta NSW 2150',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Smithfield Operations Hub',
+            address: '327-329 Woodpark Rd, Smithfield NSW 2164',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Newcastle & Hunter Region',
+            address: 'Servicing Newcastle, Maitland, Lake Macquarie',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Illawarra & South Coast',
+            address: 'Servicing Wollongong, Shellharbour, Kiama',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Central Coast Hub',
+            address: 'Servicing Gosford, Wyong, Tuggerah',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Sydney Northern Beaches',
+            address: 'Servicing Manly, Brookvale, Mona Vale',
+            phone: '1300 875 377',
+          },
+        ],
+        VIC: [
+          {
+            name: 'Melbourne Metro Central',
+            address: 'Servicing City, Carlton, Richmond, Southbank',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Melbourne East & Monash',
+            address: 'Servicing Glen Waverley, Box Hill, Ringwood',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Melbourne West & Wyndham',
+            address: 'Servicing Werribee, Point Cook, Sunshine',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Geelong & Bellarine Hub',
+            address: 'Servicing Geelong, Belmont, Ocean Grove',
+            phone: '1300 875 377',
+          },
+        ],
+        QLD: [
+          {
+            name: 'Brisbane Metropolitan Hub',
+            address: 'Servicing Brisbane CBD, Chermside, Mt Gravatt',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Gold Coast & Southport',
+            address: 'Servicing Southport, Robina, Surfers Paradise',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Sunshine Coast & Maroochydore',
+            address: 'Servicing Maroochydore, Caloundra, Noosa',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Cairns & Far North QLD',
+            address: 'Servicing Cairns Metro, Northern Beaches',
+            phone: '1300 875 377',
+          },
+        ],
+        WA: [
+          {
+            name: 'Perth Central Hub',
+            address: 'Servicing Perth City, Victoria Park, Subiaco',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Perth North Hub',
+            address: 'Servicing Joondalup, Stirling, Wanneroo',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Perth South Hub',
+            address: 'Servicing Fremantle, Cockburn, Mandurah',
+            phone: '1300 875 377',
+          },
+        ],
+        SA: [
+          {
+            name: 'Adelaide Metropolitan',
+            address: 'Servicing Adelaide City, Norwood, Unley',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Adelaide North & Elizabeth',
+            address: 'Servicing Salisbury, Elizabeth, Gawler',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Adelaide South & Marion',
+            address: 'Servicing Marion, Noarlunga, Brighton',
+            phone: '1300 875 377',
+          },
+        ],
+        ACT: [
+          {
+            name: 'Canberra Central & Belconnen',
+            address: 'Servicing City, Belconnen, Gungahlin',
+            phone: '1300 875 377',
+          },
+          {
+            name: 'Canberra South & Woden',
+            address: 'Servicing Woden Valley, Tuggeranong',
+            phone: '1300 875 377',
+          },
+        ],
+      };
+
+      // Mobile Drawer Handlers
+      const mobileBtn = document.getElementById('mobileMenuBtn');
+      const drawerCloseBtn = document.getElementById('drawerCloseBtn');
+      const mobileDrawer = document.getElementById('mobileDrawer');
+      const drawerOverlay = document.getElementById('drawerOverlay');
+
+      function openDrawer() {
+        if (mobileDrawer) mobileDrawer.classList.add('is-active');
+        if (drawerOverlay) drawerOverlay.classList.add('is-active');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeDrawer() {
+        if (mobileDrawer) mobileDrawer.classList.remove('is-active');
+        if (drawerOverlay) drawerOverlay.classList.remove('is-active');
+        document.body.style.overflow = '';
+      }
+
+      if (mobileBtn) mobileBtn.addEventListener('click', openDrawer);
+      if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', closeDrawer);
+      if (drawerOverlay) drawerOverlay.addEventListener('click', closeDrawer);
+
+      // Wizard Step State
+      let currentStep = 1;
+
+      function setWizardStep(stepNum) {
+        currentStep = stepNum;
+        for (let i = 1; i <= 4; i++) {
+          const pane = document.getElementById('pane' + i);
+          const dot = document.getElementById('dot' + i);
+          if (pane) pane.classList.remove('active');
+          if (dot) dot.classList.remove('active');
+        }
+
+        const activePane = document.getElementById('pane' + stepNum);
+        if (activePane) activePane.classList.add('active');
+
+        for (let i = 1; i <= stepNum; i++) {
+          const dot = document.getElementById('dot' + i);
+          if (dot) dot.classList.add('active');
+        }
+
+        const bar = document.getElementById('wizardBar');
+        if (bar) {
+          bar.style.width = stepNum * 25 + '%';
+        }
+      }
+
+      function updateRadioSelection(radioInput) {
+        document.querySelectorAll('.choice-label').forEach((label) => {
+          label.classList.remove('selected');
+        });
+        if (radioInput && radioInput.closest('.choice-label')) {
+          radioInput.closest('.choice-label').classList.add('selected');
+        }
+      }
+
+      function selectPathway(pathwayKey) {
+        const select = document.getElementById('careSelect');
+        if (select) {
+          if (pathwayKey === 'aged-care') {
+            select.value = 'Support at Home / Aged Care (Levels 1 - 8)';
+          } else if (pathwayKey === 'ndis') {
+            select.value = 'NDIS Disability Support (Core & Capacity)';
+          } else if (pathwayKey === 'sil') {
+            select.value = 'Supported Independent Living (SIL / SDA)';
+          }
+        }
+        setWizardStep(2);
+        const wiz = document.getElementById('wizard-section');
+        if (wiz) wiz.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function handleWizardSubmit(e) {
+        e.preventDefault();
+
+        const careVal =
+          document.getElementById('careSelect')?.value || 'Support at Home';
+        const stateVal = document.getElementById('stateSelect')?.value || 'NSW';
+        const suburbVal = document.getElementById('suburbInput')?.value || '';
+        const firstName =
+          document.getElementById('firstNameInput')?.value || '';
+        const lastName = document.getElementById('lastNameInput')?.value || '';
+        const phone = document.getElementById('phoneInput')?.value || '';
+
+        // Generate random Reference ID
+        const randomRef = 'STA-' + Math.floor(10000 + Math.random() * 90000);
+        const refBadge = document.getElementById('refBadge');
+        if (refBadge) refBadge.textContent = 'Enquiry Reference: ' + randomRef;
+
+        // Update Summary Info
+        const sumCare = document.getElementById('sumCare');
+        const sumLocation = document.getElementById('sumLocation');
+        const sumContact = document.getElementById('sumContact');
+
+        if (sumCare) sumCare.textContent = careVal;
+        if (sumLocation)
+          sumLocation.textContent = suburbVal
+            ? `${suburbVal}, ${stateVal}`
+            : stateVal;
+        if (sumContact)
+          sumContact.textContent = `${firstName} ${lastName} (${phone})`;
+
+        // Hide step panes, show confirmation
+        for (let i = 1; i <= 4; i++) {
+          const pane = document.getElementById('pane' + i);
+          if (pane) pane.classList.remove('active');
+        }
+        const confirmPane = document.getElementById('confirmationPane');
+        if (confirmPane) confirmPane.classList.add('active');
+
+        const bar = document.getElementById('wizardBar');
+        if (bar) bar.style.width = '100%';
+
+        const wiz = document.getElementById('wizard-section');
+        if (wiz) wiz.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function resetWizard() {
+        const confirmPane = document.getElementById('confirmationPane');
+        if (confirmPane) confirmPane.classList.remove('active');
+        setWizardStep(1);
+      }
+
+      // Services Filter Tabs
+      function filterServices(cat, btn) {
+        if (btn) {
+          document
+            .querySelectorAll('.filter-pill')
+            .forEach((b) => b.classList.remove('active'));
+          btn.classList.add('active');
+        }
+        const items = document.querySelectorAll('.service-box-item');
+        items.forEach((item) => {
+          const itemCat = item.getAttribute('data-category') || '';
+          if (cat === 'all' || itemCat.includes(cat)) {
+            item.style.display = 'flex';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      }
+
+      // FAQ Accordion
+      function toggleAccordion(btn) {
+        const parent = btn.parentElement;
+        const isOpen = parent.classList.contains('open');
+        document
+          .querySelectorAll('.faq-card-unit')
+          .forEach((card) => card.classList.remove('open'));
+        if (!isOpen) {
+          parent.classList.add('open');
+        }
+      }
+
+      // Locations State Tabs
+      function renderLocations(stateKey) {
+        const container = document.getElementById('locationsGrid');
+        if (!container) return;
+        const branches = locationsData[stateKey] || [];
+        container.innerHTML = branches
+          .map(
+            (b) => `
+        <div class="state-branch-card">
+          <h4>${b.name}</h4>
+          <p><i class="fa-solid fa-location-dot" style="color: var(--hc-primary); margin-right: 6px;"></i> ${b.address}</p>
+          <a href="tel:1300875377" class="branch-phone-link">
+            <i class="fa-solid fa-phone"></i> ${b.phone}
+          </a>
+        </div>
+      `,
+          )
+          .join('');
+      }
+
+      function switchStateTab(stateKey, btn) {
+        document
+          .querySelectorAll('.state-tab')
+          .forEach((t) => t.classList.remove('active'));
+        if (btn) btn.classList.add('active');
+        renderLocations(stateKey);
+      }
+
+      // Download Single HTML Functionality
+      function downloadSingleHtml() {
+        const htmlContent =
+          '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+        const blob = new Blob([htmlContent], {
+          type: 'text/html;charset=utf-8',
+        });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'sta-community-nursing-ndis-services.html';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }
+
+      // Watermark Mode Intensity Switcher (Subtle -> Clear -> Vivid -> Off -> Subtle)
+      const watermarkModes = ['subtle', 'clear', 'vivid', 'off'];
+      const watermarkLabels = {
+        subtle: 'Subtle',
+        clear: 'Clear',
+        vivid: 'Vivid',
+        off: 'Off',
+      };
+      let currentWmIndex = 0;
+
+      function cycleWatermarkMode() {
+        currentWmIndex = (currentWmIndex + 1) % watermarkModes.length;
+        const mode = watermarkModes[currentWmIndex];
+        document.documentElement.setAttribute('data-watermark-mode', mode);
+
+        const labelEl = document.getElementById('watermarkModeLabel');
+        if (labelEl) labelEl.textContent = watermarkLabels[mode];
+
+        showWmToast(`Cartoon Watermarks: ${watermarkLabels[mode]}`);
+      }
+
+      let toastTimer = null;
+      function showWmToast(msg) {
+        const toast = document.getElementById('wmToast');
+        const toastMsg = document.getElementById('wmToastMsg');
+        if (!toast || !toastMsg) return;
+
+        toastMsg.textContent = msg;
+        toast.classList.add('show');
+
+        if (toastTimer) clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => {
+          toast.classList.remove('show');
+        }, 2400);
+      }
+
+      // Initialize initial views
+      document.addEventListener('DOMContentLoaded', () => {
+        renderLocations('NSW');
+      });
+      // Also run immediately in case DOM is already ready
+      renderLocations('NSW');
+
+      // Fade-up reveal for section headings as they scroll into view
+      (function initScrollReveal() {
+        const headings = document.querySelectorAll('.section-center-head');
+        if (!headings.length) return;
+
+        const prefersReducedMotion = window.matchMedia(
+          '(prefers-reduced-motion: reduce)'
+        ).matches;
+
+        if (prefersReducedMotion || !('IntersectionObserver' in window)) {
+          headings.forEach((el) => el.classList.add('is-visible'));
+          return;
+        }
+
+        const observer = new IntersectionObserver(
+          (entries, obs) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                obs.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.15, rootMargin: '0px 0px -60px 0px' }
+        );
+
+        headings.forEach((el) => observer.observe(el));
+      })();
+    </script>
+
+    <!-- Watermark Feedback Toast -->
+    <div id="wmToast" class="wm-toast" role="status" aria-live="polite">
+      <i class="fa-solid fa-wand-magic-sparkles"></i>
+      <span id="wmToastMsg">Watermark Mode Updated</span>
+    </div>
+  </body>
+</html>

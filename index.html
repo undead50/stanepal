@@ -1095,8 +1095,16 @@
         transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
         transform-style: preserve-3d;
       }
-      .service-box-item:hover .service-card-inner {
+      .service-box-item:hover .service-card-inner,
+      .service-box-item.is-flipped .service-card-inner {
         transform: rotateY(180deg);
+      }
+      .service-box-item.is-flipped .service-card-front,
+      .service-box-item.is-flipped .service-card-back {
+        box-shadow: var(--hc-shadow-lg);
+      }
+      .service-box-item.is-flipped .flip-hint i {
+        transform: rotate(180deg);
       }
       .service-card-front,
       .service-card-back {
@@ -3755,7 +3763,7 @@
                       Personal Care &amp; Hygiene
                     </h3>
                     <span class="flip-hint"
-                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      ><i class="fa-solid fa-arrows-rotate"></i> Tap/hover for
                       details</span
                     >
                   </div>
@@ -3813,7 +3821,7 @@
                       Domestic Assistance &amp; Meals
                     </h3>
                     <span class="flip-hint"
-                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      ><i class="fa-solid fa-arrows-rotate"></i> Tap/hover for
                       details</span
                     >
                   </div>
@@ -3872,7 +3880,7 @@
                       Dementia Caring Australia
                     </h3>
                     <span class="flip-hint"
-                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      ><i class="fa-solid fa-arrows-rotate"></i> Tap/hover for
                       details</span
                     >
                   </div>
@@ -3929,7 +3937,7 @@
                       Complex &amp; Clinical Nursing
                     </h3>
                     <span class="flip-hint"
-                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      ><i class="fa-solid fa-arrows-rotate"></i> Tap/hover for
                       details</span
                     >
                   </div>
@@ -3993,7 +4001,7 @@
                       NDIS Core &amp; Social Transport
                     </h3>
                     <span class="flip-hint"
-                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      ><i class="fa-solid fa-arrows-rotate"></i> Tap/hover for
                       details</span
                     >
                   </div>
@@ -4064,7 +4072,7 @@
                       Supported Living (SIL &amp; SDA)
                     </h3>
                     <span class="flip-hint"
-                      ><i class="fa-solid fa-arrows-rotate"></i> Hover for
+                      ><i class="fa-solid fa-arrows-rotate"></i> Tap/hover for
                       details</span
                     >
                   </div>
@@ -5172,6 +5180,23 @@
         );
 
         headings.forEach((el) => observer.observe(el));
+      })();
+
+      // Tap-to-flip for the service cards on touch devices (no :hover there)
+      (function initServiceCardTapFlip() {
+        const cards = document.querySelectorAll('.service-box-item');
+        if (!cards.length) return;
+
+        const supportsHover = window.matchMedia('(hover: hover)').matches;
+        if (supportsHover) return;
+
+        cards.forEach((card) => {
+          card.addEventListener('click', () => {
+            const wasFlipped = card.classList.contains('is-flipped');
+            cards.forEach((c) => c.classList.remove('is-flipped'));
+            if (!wasFlipped) card.classList.add('is-flipped');
+          });
+        });
       })();
     </script>
 

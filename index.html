@@ -281,19 +281,19 @@
         height: clamp(66px, 8vw, 88px);
         width: auto;
         display: block;
-        border-radius: 12px;
-        box-shadow: 0 4px 14px rgba(95, 29, 189, 0.26);
         transition: var(--hc-transition);
-      }
-      .brand-logo:hover .brand-logo-svg {
-        box-shadow: 0 6px 20px rgba(95, 29, 189, 0.38);
       }
       .brand-logo-svg.in-drawer {
         height: 46px;
       }
+      /* Footer still uses the boxed raster mark for contrast on the dark bg */
       .brand-logo-svg.in-footer {
         height: clamp(52px, 6.5vw, 64px);
+        border-radius: 12px;
         box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+      }
+      .brand-logo:hover .brand-logo-svg.in-footer {
+        box-shadow: 0 8px 26px rgba(0, 0, 0, 0.55);
       }
 
       /* Desktop Navigation */
@@ -1930,7 +1930,7 @@
           aria-label="STA Community Nursing &amp; NDIS Services Homepage"
         >
           <img
-            src="logo.png"
+            src="logo.svg"
             alt="STA Community Nursing &amp; NDIS Services"
             class="brand-logo-svg"
           />
@@ -2117,7 +2117,7 @@
             aria-label="STA Community Nursing &amp; NDIS Services Homepage"
           >
             <img
-              src="logo.png"
+              src="logo.svg"
               alt="STA Community Nursing &amp; NDIS Services"
               class="brand-logo-svg in-drawer"
             />
